@@ -100,14 +100,14 @@
           <div
             class="relative flex max-w-[48rem] flex-row bg-white bg-clip-border text-black font-serif shadow-md"
           >
-            <div class="p-6  mb-2">
+            <div class="p-6 mb-4">
               <ul class="list-item">
                 <li class="custom-bullet">
-                  We partner with supporters willing to provide
+                  Elimisha Watoto Foundation partners with individuals willing to
                   <span class="font-bold">
-                    educational financial assistance
+                    provide financial assistance
                   </span>
-                  to beneficiaries.
+                  to cater to the educational needs of students. Partners can choose to be known or remain anonymous.
                 </li>
 
                 <li class="custom-bullet">

@@ -33,6 +33,21 @@
                 <span class="font-bold text-xl pt-2 ">Princeton Nyanja</span>
                 <span class="text-xl pt-2">Liaison Officer</span>
             </div>
+            <div class="flex flex-col mt-8 items-center">
+                <img src="../assets/Lucy.png" alt="" class="rounded-full w-64 h-64">
+                <span class="font-bold text-xl pt-2 ">Lucy Mueni</span>
+                <span class="text-xl pt-2">Liaison Officer</span>
+            </div>
+            <div class="flex flex-col mt-8 items-center">
+                <img src="../assets/warda.png" alt="" class="rounded-full w-64 h-64">
+                <span class="font-bold text-xl pt-2 ">Warda Musa</span>
+                <span class="text-xl pt-2">Assistant Liaison Officer</span>
+            </div>
+            <div class="flex flex-col mt-8 items-center">
+                <img src="../assets/salome.png" alt="" class="rounded-full w-64 h-64">
+                <span class="font-bold text-xl pt-2 ">Salome Njeri</span>
+                <span class="text-xl pt-2">Assistant Administrative Officer</span>
+            </div>
             
         </div>
     </div>

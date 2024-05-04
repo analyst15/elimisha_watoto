@@ -94,7 +94,7 @@
 
     <!-- Key Importances -->
     <div class="mt-10 text-center font-bold font-sans text-4xl text-teal-700">
-      Key Importances
+      Roles of Liaison officers
     </div>
     <div class="justify-center items-center font-sans py-14">
       <div class=" ">

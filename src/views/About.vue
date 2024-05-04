@@ -89,7 +89,7 @@
                   <span class="absolute inset-0"></span>
                   OUR OBJECTIVE
                 </a>
-                <ul class="text-white text-sm p-4 list-disc">
+                <ul class="text-white text-left text-sm p-4 list-disc">
                   <li>Harnessing our traditional culture of giving.</li>
                   <li>
                     Providing hope and opportunity to needy but academically
@@ -185,7 +185,7 @@
 </template>
 
 <script>
-import footer from "../components/footer.vue";
+import footer from "../components/Footer.vue";
 export default {
   components: {
     footer,
