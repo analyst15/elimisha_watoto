@@ -3,7 +3,7 @@
     <nav class="bg-white fixed w-full">
       <div
         class="container flex items-center justify-around py-1 mx-auto min-w-full text-gray-600 capitalize dark:text-black">
-        <img src="@/assets/logo.png" alt="" />
+        <img src="@/assets/LogoFile.png" alt="" />
         <div class="hidden lg:block">
           <div class="flex">
             <router-link
