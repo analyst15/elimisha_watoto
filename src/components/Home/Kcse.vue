@@ -4,8 +4,8 @@
       :to="{ name: 'kcse' }">
         <h1 class="text-4xl mb-4 font-extrabold text-center">
           <span class="underline underline-offset-8 decoration-emerald-700 decoration-4"
-            >Our Impac</span
-          >t
+            >Our Im</span
+          >pact
         </h1>
         <div class="flex flex-wrap items-center  justify-center my-8">
         <div class="w-80 h-60 flex justify-center flex-col items-center border border-orange-600 rounded-lg m-2">
