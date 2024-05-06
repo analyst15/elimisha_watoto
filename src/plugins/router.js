@@ -31,10 +31,15 @@ const routes = [
     component: () => import("../views/Programmes.vue"),
   },
   {
+    path: "/gallery",
+    name: "gallery",
+    component: () => import("../views/gallery.vue"),
+  },
+  /*{
     path: "/news",
     name: "news",
     component: () => import("../views/News&Updates.vue"),
-  },
+  },*/
   {
     path: "/friends",
     name: "friends",

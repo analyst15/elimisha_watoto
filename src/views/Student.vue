@@ -48,13 +48,13 @@
     </div>
     <div class="flex justify-center flex-wrap mb-5 gap-5">
       <img
-        class="p-2 w-auto h-auto"
-        src="https://firebasestorage.googleapis.com/v0/b/elimisha2-f0d66.appspot.com/o/Picture5.png?alt=media&token=890fbc1d-6ab4-4de4-9b73-100a84fff442"
+        class="p-2 w-80"
+        src="../assets/StudentSupport.jpeg"
         alt="image description" />
 
       <img
-        class="p-2 w-auto h-auto"
-        src="https://firebasestorage.googleapis.com/v0/b/elimisha2-f0d66.appspot.com/o/Picture6.png?alt=media&token=f7c6be8b-126e-41d8-9835-f46bbe9ef4c2"
+        class="p-2 w-80"
+        src="../assets/StudentSupport_1.jpeg"
         alt="image description" />
     </div>
   </div>

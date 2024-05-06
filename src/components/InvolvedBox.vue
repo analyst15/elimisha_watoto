@@ -102,7 +102,7 @@
           >
             <div class="p-6 mb-4">
               <ul class="list-item">
-                <li class="custom-bullet">
+                <li class="custom-bullet pt-10">
                   Elimisha Watoto Foundation partners with individuals willing to
                   <span class="font-bold">
                     provide financial assistance
@@ -110,9 +110,6 @@
                   to cater to the educational needs of students. Partners can choose to be known or remain anonymous.
                 </li>
 
-                <li class="custom-bullet">
-                  Partners can choose to be known or remain anonymous.
-                </li>
 
                 <li class="custom-bullet mt-3 font-bold">CATERGORY A</li>
 

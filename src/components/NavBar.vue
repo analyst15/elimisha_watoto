@@ -99,12 +99,20 @@
             </router-link>
 
             <router-link
+              :to="{ name: 'gallery' }"
+              class="border-b-2 border-transparent focus:text-green-500 focus:border-red-700 hover:text-gray-800 transition-colors duration-300 transform text-gray-800 hover:border-blue-500 mx-4"
+              exact
+              exact-active-class="active-link">
+              Gallery
+            </router-link>
+
+            <!--<router-link
               :to="{ name: 'news' }"
               class="border-b-2 border-transparent focus:text-green-500 focus:border-red-700 hover:text-gray-800 transition-colors duration-300 transform text-gray-800 hover:border-blue-500 mx-4"
               exact
               exact-active-class="active-link">
               News & Updates
-            </router-link>
+            </router-link>-->
 
             <!-- <router-link
               :to="{ name: 'faq' }"
@@ -244,13 +252,22 @@
           </router-link>
 
           <router-link
+            :to="{ name: 'gallery' }"
+            class="mt-2 hover:bg-emerald-700 mx-20 rounded hover:text-white focus:text-white focus:bg-emerald-600 mb-1"
+            @click="openMenu = !openMenu"
+            exact
+            exact-active-class="active-link">
+            Gallery
+          </router-link>
+
+          <!----<router-link
             :to="{ name: 'news' }"
             class="mt-2 hover:bg-emerald-700 mx-20 rounded hover:text-white focus:text-white focus:bg-emerald-600 mb-1"
             @click="openMenu = !openMenu"
             exact
             exact-active-class="active-link">
             News & Updates
-          </router-link>
+          </router-link>-->
 
           <!-- <router-link
             :to="{ name: 'faq' }"

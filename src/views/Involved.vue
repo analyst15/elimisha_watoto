@@ -3,8 +3,8 @@
     <!-- <div class="overflow-hidden h-full w-full bg-cover items-center " style="background-image: url('../assets/ourwork.jpg');"> -->
 
     <img
-      class="h-screen object-cover"
-      src="../assets/friendsin.jpg"
+      class="h-screen w-full"
+      src="../assets/OurPillars.jpeg"
       alt="image description"/>
 
     <div

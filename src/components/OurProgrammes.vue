@@ -20,12 +20,12 @@
                             <div class="bg-orange-500 p-2 w-64 h-80 flex flex-col justify-center rounded-lg">
                                 <h1 class="font-bold text-2xl">{{ sSHeading }}</h1>
                                 <p class="mt-2 text-white">{{ sSParagraph }}</p>
-                                <router-link :to="{name: 'home'}" class="bg-white rounded-lg p-1.5 mt-4">{{ btn }}</router-link>
+                                <router-link :to="{name: 'student'}" class="bg-white rounded-lg p-1.5 mt-4">{{ btn }}</router-link>
                             </div>
                             <div class="bg-orange-500 p-2 w-64 h-80 flex flex-col justify-center rounded-lg">
                                 <h1 class="font-bold text-2xl">{{ aSHeading }}</h1>
                                 <p class="mt-2 text-white">{{ aSParagraph }}</p>
-                                <router-link :to="{name: 'home'}" class="bg-white rounded-lg p-1.5 mt-4">{{ btn }}</router-link>
+                                <router-link :to="{name: 'AS'}" class="bg-white rounded-lg p-1.5 mt-4">{{ btn }}</router-link>
                             </div>
                         </div>
                     

@@ -2,7 +2,7 @@
   <div>
     <img
       class="h-screen w-full "
-      src="../assets/friendsin.jpg"
+      src="../assets/WhatWeDo.jpeg"
       alt="image description" />
     <div>
       <div
