@@ -45,7 +45,6 @@
     <Values />
     <Programs />
     <Slider />
-    <Kcse />
   </div>
 </template>
 
