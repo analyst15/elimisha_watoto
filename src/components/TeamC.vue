@@ -18,11 +18,11 @@
                 <span class="font-bold text-xl pt-2 ">Elizabeth Mwania</span>
                 <span class="text-xl pt-2">Administrator</span>
             </div>
-            <div class="flex flex-col mt-8 items-center">
+            <!----<div class="flex flex-col mt-8 items-center">
                 <img src="../assets/brenda.png" alt="" class="rounded-full w-64 h-64">
                 <span class="font-bold text-xl pt-2 ">Brenda Muthoni</span>
                 <span class="text-xl pt-2">Liaison Officer</span>
-            </div>
+            </div>-->
             <div class="flex flex-col mt-8 items-center">
                 <img src="../assets/susan.png" alt="" class="rounded-full w-64 h-64">
                 <span class="font-bold text-xl pt-2 ">Susan Muriuki</span>
