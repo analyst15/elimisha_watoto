@@ -24,8 +24,7 @@
 
     </div>
 
-    
-
+<Contact />
     
   </div>
 
@@ -34,6 +33,7 @@
 
 <script>
 import InvolvedBox from "../components/InvolvedBox.vue";
+import Contact from "../views/Contact.vue";
 
 export default {
   setup() {
@@ -45,6 +45,7 @@ export default {
   },
   components: {
       InvolvedBox,
+      Contact,
     },
 };
 </script>
