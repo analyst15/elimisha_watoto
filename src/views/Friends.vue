@@ -82,8 +82,8 @@
           <span class="text-black"
             >Mohware IT, an IT firm specializing in services for various
             industries, has played a pivotal role in our journey. They developed
-            the Elimisha Watoto CRM and generously donated Version 2.0 as part
-            of their Social Corporate Responsibility. This CRM, a true
+            the Elimisha Watoto Student Portal and generously donated Version 2.0 as part
+            of their Social Corporate Responsibility. This Student Portal, a true
             game-changer, streamlines our processes and enhances accountability.
             We express our appreciation to Mohware IT Solutions and eagerly
             anticipate a mutually beneficial partnership for the betterment of
