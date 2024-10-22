@@ -53,23 +53,6 @@
             </router-link>
 
             <router-link
-              :to="{ name: 'involved' }"
-              @mouseenter="isHovered2 = true"
-              @mouseleave="isHovered2 = false"
-              class="border-b-2 border-transparent focus:text-green-500 focus:border-red-700 hover:text-gray-800 transition-colors duration-300 transform dark:text-gray-800 hover:border-blue-500 mx-4"
-              exact
-              exact-active-class="active-link">
-              get involved
-              <router-link
-                :to="{ name: 'friends' }"
-                v-if="isHovered2"
-                @click="goToFriends()"
-                class="absolute top-full left-0 hover:bg-emerald-700 hover:text-white rounded-md p-1 w-36">
-                Friends of Elimisha
-              </router-link>
-            </router-link>
-
-            <router-link
               :to="{ name: 'programmes' }"
               @mouseenter="isHovered3 = true"
               @mouseleave="isHovered3 = false"
@@ -104,6 +87,23 @@
               exact
               exact-active-class="active-link">
               Gallery
+            </router-link>
+
+            <router-link
+              :to="{ name: 'involved' }"
+              @mouseenter="isHovered2 = true"
+              @mouseleave="isHovered2 = false"
+              class="border-b-2 border-transparent focus:text-green-500 focus:border-red-700 hover:text-gray-800 transition-colors duration-300 transform dark:text-gray-800 hover:border-blue-500 mx-4"
+              exact
+              exact-active-class="active-link">
+              get involved
+              <router-link
+                :to="{ name: 'friends' }"
+                v-if="isHovered2"
+                @click="goToFriends()"
+                class="absolute top-full left-0 hover:bg-emerald-700 hover:text-white rounded-md p-1 w-36">
+                Friends of Elimisha
+              </router-link>
             </router-link>
 
             <!--<router-link
@@ -198,24 +198,6 @@
           </router-link>
 
           <router-link
-            :to="{ name: 'involved' }"
-            class="mt-2 hover:bg-emerald-700 mx-20 rounded hover:text-white focus:text-white focus:bg-emerald-600 mb-1"
-            @click="openMenu = !openMenu"
-            exact
-            exact-active-class="active-link">
-            Get Involved
-          </router-link>
-
-          <router-link
-            :to="{ name: 'friends' }"
-            class="mt-2 hover:bg-emerald-700 mx-20 rounded hover:text-white focus:text-white focus:bg-emerald-600 mb-1"
-            @click="openMenu = !openMenu"
-            exact
-            exact-active-class="active-link">
-            Friends of Elimisha
-          </router-link>
-
-          <router-link
             :to="{ name: 'programmes' }"
             class="mt-2 hover:bg-emerald-700 mx-20 rounded hover:text-white focus:text-white focus:bg-emerald-600 mb-1"
             @click="openMenu = !openMenu"
@@ -248,7 +230,7 @@
             @click="openMenu = !openMenu"
             exact
             exact-active-class="active-link">
-            Accademic Support
+            Academic Support
           </router-link>
 
           <router-link
@@ -258,6 +240,24 @@
             exact
             exact-active-class="active-link">
             Gallery
+          </router-link>
+
+          <router-link
+            :to="{ name: 'involved' }"
+            class="mt-2 hover:bg-emerald-700 mx-20 rounded hover:text-white focus:text-white focus:bg-emerald-600 mb-1"
+            @click="openMenu = !openMenu"
+            exact
+            exact-active-class="active-link">
+            Get Involved
+          </router-link>
+
+          <router-link
+            :to="{ name: 'friends' }"
+            class="mt-2 hover:bg-emerald-700 mx-20 rounded hover:text-white focus:text-white focus:bg-emerald-600 mb-1"
+            @click="openMenu = !openMenu"
+            exact
+            exact-active-class="active-link">
+            Friends of Elimisha
           </router-link>
 
           <!----<router-link
