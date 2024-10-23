@@ -7,7 +7,7 @@
         src="https://firebasestorage.googleapis.com/v0/b/travelapp-23e4c.appspot.com/o/Elimisha%20Watoto.mp4?alt=media&token=03d5f959-0985-4185-bf55-86c640d74c48"
         type="video/mp4"
         autoplay
-        muted
+        controls
         loop>
       </video>
       <!----<video
