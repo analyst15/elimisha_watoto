@@ -95,7 +95,7 @@
         <div
           v-if="pop2"
           @click="closePopup"
-          class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center"
+          class="absolute  bg-black bg-opacity-50 flex items-center justify-center"
         >
           <div
             class="relative flex max-w-[48rem] flex-row bg-white bg-clip-border text-black font-serif shadow-md"
