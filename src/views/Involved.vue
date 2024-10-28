@@ -24,7 +24,8 @@
 
     </div>
 
-<Contact />
+<Contact className = "mt-20" 
+ />
     
   </div>
 
