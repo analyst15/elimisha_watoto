@@ -1,6 +1,6 @@
 <template>
   <!-- Background Image and video -->
-  <section class="h-96 md:h-screen flex flex-col items-center justify-center">
+  <!----<section class="h-96 md:h-screen flex flex-col items-center justify-center">
     <div class="relative">
       <video
         class="object-cover mx-auto md:py-20  md:3/4"
@@ -22,9 +22,9 @@
         title="The Story of Elimisha Watoto Foundation" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-      </iframe>-->
+      </iframe>--
     </div>
-  </section>
+  </section>-->
   <div>
     <!-- About Us component -->
     <section class="bg-white max-w-7xl mx-auto p-10 px-4 sm:px-6 lg:px-4 mb-12">
