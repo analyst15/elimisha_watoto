@@ -44,14 +44,12 @@
               <h3 class="text-center">
                 <a class="text-white text-xl font-bold text-center" href="#">
                   <span class="absolute inset-0"></span>
-                  EWF BACKGROUND
+                  OUR STORY
                 </a>
                 <p class="text-white text-sm p-4">
-                  We are dedicated to supporting the education of secondary
-                  school students drawn from all counties in Kenya. The approach
-                  is to provide equal opportunities to deserving students with
-                  no discrimination considered on the basis of need and academic
-                  merit.
+                  Elimisha Watoto Foundation was born out of the need, within our communities, to foster a hopeful future for academically 
+                  talented yet underprivileged students. Over the years, the programme has expanded, uplifting these students through financial
+                  and academic support as well as mentorship. <em>'Every child deserves an opportunity to thrive and reach their full potential.'</em>
                 </p>
               </h3>
             </div>
