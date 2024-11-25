@@ -22,7 +22,7 @@
 import { ref } from 'vue';
 
 const values = ref([
-    'Compassion', 'Integrity', 'Accountability', 'Confidentiality', 'Impartiality', 'Nurturing'
+    'Honesty', 'Accountability', 'Transparency', 'Integrity', 'Innovation'
 ])
 </script>
 
