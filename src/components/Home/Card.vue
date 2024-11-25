@@ -13,7 +13,7 @@
                     <h1 class="text-center text-2xl font-bold">About Us</h1>
                 </div>
                 
-                <p class="text-center">Elimisha Watoto Foundation is an initiative born out of the need to guide and mentor under privileged student into academic excellence</p>
+                <p class="text-center">Elimisha Watoto Foundation is an initiative born out of the need to guide and mentor under-privileged students into academic excellence.</p>
                 <h1></h1>
                 </div>
             
@@ -54,7 +54,7 @@
             </div>
                 
             
-            <p class="text-center">Our vision is to develop confidence in student allowing them to become competitive global citizens.</p>
+            <p class="text-center">To develop confidence in students allowing them to become competitive global citizens.</p>
             <h1></h1>
             </div>
         
