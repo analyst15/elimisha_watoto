@@ -33,9 +33,9 @@ import "swiper/css/effect-cube"
 
 
 const didYouKnow = ref([
-        {id: 1,text:"Rural areas are severely hit when it comes to secondary education in Kenya.", link: "https://www.kevmrc.com/kenya-education-facts"},
-        {id: 2,text:"There are more than one million Kenyan children that are still out of school.", link:"https://www.nationmaster.com/country-info/stats/Education/Children-out-of-school,-primary"},
-        {id: 3,text:"Hundreds of thousands of learners have been dropping out of the education system annually despite the much-hyped 100 per cent transition policy introduced by the government in 2017.", link:"https://allafrica.com/stories/202109210091.html"},
+        {id: 1,text:"As of 2023, an estimated 8.5% of school-aged children, or over one million children, are not enrolled in school.", link: "https://www.nationmaster.com/country-info/stats/Education/Children-out-of-school,-primary"},
+        {id: 2,text:"Secondary schools are facing significant financial challenges, which threatens the smooth administration of national examinations and overall school operations.", link:"https://www.kevmrc.com/kenya-education-facts"},
+        {id: 3,text:"Factors such as poverty, lack of school fees, and inadequate infrastructure have resulted in continued school dropouts, particularly among marginalized communities.", link:"https://allafrica.com/stories/202109210091.html"},
 ])
 </script>
 
