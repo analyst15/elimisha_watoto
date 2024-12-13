@@ -108,7 +108,7 @@
           <div class=" col-span-4">
             <div class="mt-6 ">
               <span class="text-black font-bold text-2xl">
-                4. Translieu Co. Limited 
+                4. Trans. Lieu Company Limited
               </span>
             </div>
 

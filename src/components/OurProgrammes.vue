@@ -8,7 +8,7 @@
                 <div class=" h-screen overflow-hidden  pt-60 md:pt-32  ">
             
             <div class="container mx-auto px-4">
-                <h1 class="text-6xl font-bold my-8 font-mono uppercase text-white relative">Our Programmes</h1>
+                <h1 class="text-6xl font-bold my-8 font-mono uppercase text-white relative">Our Pillars</h1>
                 <div class="relative">
                     <div class="hidden md:block">
                         <div class="flex justify-center items-center mt-16 gap-20 flex-wrap">
