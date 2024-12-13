@@ -7,15 +7,15 @@
           <div class="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
             <div
               class="absolute inset-y-0 left-0 -z-10 w-full overflow-hidden bg-gray-100 ring-1 ring-gray-900/10 lg:w-1/2"></div>
-            <h2
+            <!----<h2
               class="text-3xl text-center font-bold tracking-tight text-emerald-600">
               Contact Us
-            </h2>
+            </h2>-->
 
             <dl class="mt-10 space-y-4 text-base leading-7 text-gray-600">
-              <span class="text-3xl font-bold text-emerald-600"
+              <!----<span class="text-3xl font-bold text-emerald-600"
                 >Get In Touch</span
-              >
+              >-->
               <div class="flex gap-x-4">
                 <dt class="flex-none">
                   <span class="sr-only">Email</span>
