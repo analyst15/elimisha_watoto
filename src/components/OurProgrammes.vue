@@ -8,25 +8,31 @@
                 <div class=" h-screen overflow-hidden  pt-60 md:pt-32  ">
             
             <div class="container mx-auto px-4">
-                <h1 class="text-6xl font-bold my-8 font-mono uppercase text-white relative">Our Pillars</h1>
+                <h1 class="text-6xl font-bold my-8 font-mono uppercase text-white relative">Student Support</h1>
                 <div class="relative">
                     <div class="hidden md:block">
-                        <div class="flex justify-center items-center mt-16 gap-20 flex-wrap">
+                        <div class="flex justify-center items-center mt-16 gap-4 flex-wrap">
                             <div class="bg-orange-500 p-2 w-64 h-80 flex flex-col justify-center rounded-lg">
                                 <h1 class="font-bold text-2xl">{{ fAHeading }}</h1>
                                 <p class="mt-2 text-white">{{ fAParagraph }}</p>
                                 <router-link :to="{name: 'financial'}" class="bg-white rounded-lg p-1.5 mt-4">{{ btn }}</router-link>
                             </div>
                             <div class="bg-orange-500 p-2 w-64 h-80 flex flex-col justify-center rounded-lg">
-                                <h1 class="font-bold text-2xl">{{ sSHeading }}</h1>
-                                <p class="mt-2 text-white">{{ sSParagraph }}</p>
-                                <router-link :to="{name: 'student'}" class="bg-white rounded-lg p-1.5 mt-4">{{ btn }}</router-link>
-                            </div>
-                            <div class="bg-orange-500 p-2 w-64 h-80 flex flex-col justify-center rounded-lg">
                                 <h1 class="font-bold text-2xl">{{ aSHeading }}</h1>
                                 <p class="mt-2 text-white">{{ aSParagraph }}</p>
                                 <router-link :to="{name: 'AS'}" class="bg-white rounded-lg p-1.5 mt-4">{{ btn }}</router-link>
                             </div>
+                            <div class="bg-orange-500 p-2 w-64 h-80 flex flex-col justify-center rounded-lg">
+                                <h1 class="font-bold text-2xl">{{ pSHeading }}</h1>
+                                <p class="mt-2 text-white">{{ pSParagraph }}</p>
+                                <router-link :to="{name: 'PsychosocialSupport'}" class="bg-white rounded-lg p-1.5 mt-4">{{ btn }}</router-link>
+                            </div>
+                            <div class="bg-orange-500 p-2 w-64 h-80 flex flex-col justify-center rounded-lg">
+                                <h1 class="font-bold text-2xl">{{ mHeading }}</h1>
+                                <p class="mt-2 text-white">{{ MParagraph }}</p>
+                                <router-link :to="{name: 'mentorship'}" class="bg-white rounded-lg p-1.5 mt-4">{{ btn }}</router-link>
+                            </div>
+
                         </div>
                     
                     </div>
@@ -48,14 +54,19 @@
                         <router-link :to="{name: 'financial'}" class="bg-white rounded-lg p-1.5 mt-4">{{ btn }}</router-link>
                     </div>
                     <div class="bg-orange-500 p-2 w-64 h-80 flex flex-col justify-center rounded-lg">
-                        <h1 class="font-bold text-2xl">{{ sSHeading }}</h1>
-                        <p class="mt-2 text-white">{{ sSParagraph }}</p>
-                        <router-link :to="{name: 'home'}" class="bg-white rounded-lg p-1.5 mt-4">{{ btn }}</router-link>
-                    </div>
-                    <div class="bg-orange-500 p-2 w-64 h-80 flex flex-col justify-center rounded-lg">
                         <h1 class="font-bold text-2xl">{{ aSHeading }}</h1>
                         <p class="mt-2 text-white">{{ aSParagraph }}</p>    
                         <router-link :to="{name: 'home'}" class="bg-white rounded-lg p-1.5 mt-4">{{ btn }}</router-link>
+                    </div>
+                    <div class="bg-orange-500 p-2 w-64 h-80 flex flex-col justify-center rounded-lg">
+                        <h1 class="font-bold text-2xl">{{ pSHeading }}</h1>
+                        <p class="mt-2 text-white">{{ pSParagraph }}</p>    
+                        <router-link :to="{name: 'PsychosocialSupport'}" class="bg-white rounded-lg p-1.5 mt-4">{{ btn }}</router-link>
+                    </div>
+                    <div class="bg-orange-500 p-2 w-64 h-80 flex flex-col justify-center rounded-lg">
+                        <h1 class="font-bold text-2xl">{{ mHeading }}</h1>
+                        <p class="mt-2 text-white">{{ MParagraph }}</p>    
+                        <router-link :to="{name: 'PsychosocialSupport'}" class="bg-white rounded-lg p-1.5 mt-4">{{ btn }}</router-link>
                     </div>
                 </div>
             
@@ -121,16 +132,18 @@ const courses = ref([
 ])
 
 
-const fAHeading = ref("Financial Aid")
-const fAParagraph = ref("Elimisha Watoto Foundation is dedicated to making quality education accessible to high school students by offering essential financial aid.")
+const fAHeading = ref("Financial Support")
+const fAParagraph = ref("To alleviate the financial burden on students and their families, we provide aid by covering tuition costs")
 const btn = ref("Read More")
 
-const sSHeading = ref("Student Support")
-const sSParagraph = ref("Student support is not just about academic assistance; it extends to nurturing a holistic educational experience.")
-
-
 const aSHeading = ref("Academic Support")
-const aSParagraph = ref("Elimisha Watoto Foundation is dedicated to empowering academically gifted but financially challenged students.")
+const aSParagraph = ref("We are passionate about unlocking our students’ academic potential through:")
+
+const mHeading = ref("Mentorship")
+const MParagraph = ref("Our mentorship program is designed to support our students in navigating their career paths and fostering their leadership skills.")
+
+const pSHeading = ref("Psychosocial Support")
+const pSParagraph = ref("Recognizing that many of our students come from challenging backgrounds, we understand that circumstances at home can greatly affect their mental well-being ")
 </script>
 
 <style scoped>
