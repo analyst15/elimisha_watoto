@@ -9,6 +9,7 @@ const routes = [
   },
   { path: "/faq", name: "faq", component: () => import("../views/FAQ.vue") },
 
+
   {
     path: "/involved",
     name: "involved",
@@ -59,6 +60,16 @@ const routes = [
     path: "/financial",
     name: "financial",
     component: () => import("../views/Financial.vue")
+  },
+  {
+    path: "/mentorship",
+    name: "mentorship",
+    component: () => import("../views/Mentorship.vue")
+  },
+  {
+    path: "/PsychosocialSupport",
+    name: "PsychosocialSupport",
+    component: () => import("../views/PsychosocialSupport.vue")
   },
   {
     path: "/team",
