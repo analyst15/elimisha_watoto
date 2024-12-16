@@ -5,23 +5,10 @@
     </div>
     <div class="p-10">
       <p class="m-5">
-        Elimisha Watoto Foundation is dedicated to making quality education
-        accessible to high school students by offering essential financial aid.
-        Our commitment extends to covering tuition, providing books and ensuring
-        students have the necessary uniforms.
-      </p>
-      <p class="m-5">
-        Financial support is provided on a termly basis, aligned with the
-        academic calendar, to ease the burden on students and their families. By
-        collaborating closely with schools, we obtain fee structures, receipts,
-        and account statements, ensuring transparency and accountability in the
-        financial aid process.
-      </p>
-      <p class="m-5">
-        This comprehensive approach to financial aid aims to create an
-        environment where students can focus on their studies without the worry
-        of financial constraints, fostering a positive and conducive learning
-        atmosphere for their academic growth.
+        To alleviate the financial burden on students and their families, we provide aid by covering tuition costs, providing essential books, and ensuring access to uniforms.
+        Through close collaboration with schools, we obtain fee structures, receipts, and account statements, ensuring transparency and accountability in our processes.
+        By fostering a positive and supportive learning atmosphere, we aim to enhance our students’ academic growth and success, cultivating an environment devoid of the distraction of financial worries.
+
       </p>
     </div>
     <div class="flex grid-col-1 gap-10 px-10 justify-center flex-wrap mb-20">
