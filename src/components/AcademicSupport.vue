@@ -16,9 +16,9 @@
 import { ref } from 'vue';
 
 const heading = ref("Academic Support")
-const p1 = ref("Elimisha Watoto Foundation is dedicated to empowering academically gifted but financially challenged students. Our merit-based admission criteria set a minimum cut-off at 300 marks and above in the Kenya Certificate of Primary School education, ensuring that we support those with promising academic potential.")
-const p2 = ref("We are committed to nurturing this potential through our Academic Support Program, which includes: 1.Making termly follow up calls to the students for performance reviews 2.Regular school visit across the country to all beneficiaries 3.Providing study tips to the students")
-const p3 = ref("Through these initiatives, Elimisha Watoto Foundation is not only investing in the education of students but also fostering an environment where academic brilliance can flourish. Our holistic approach to academic support is designed to empower students with the skills and confidence needed for a successful educational journey and beyond.")
+const p1 = ref("We are passionate about unlocking our students’ academic potential through: 1.Conducting termly follow-up calls for performance reviews 2. Inspiring connections through regular school visits 3. Sharing valuable study tips to foster academic excellence 4. Constant communication with passionate teachers in the schools, who support our liaison officers.")
+/*const p2 = ref("We are committed to nurturing this potential through our Academic Support Program, which includes: 1.Making termly follow up calls to the students for performance reviews 2.Regular school visit across the country to all beneficiaries 3.Providing study tips to the students")
+const p3 = ref("Through these initiatives, Elimisha Watoto Foundation is not only investing in the education of students but also fostering an environment where academic brilliance can flourish. Our holistic approach to academic support is designed to empower students with the skills and confidence needed for a successful educational journey and beyond.")**/
 </script>
 
 <style scoped>
