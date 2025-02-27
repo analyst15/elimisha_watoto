@@ -251,7 +251,7 @@
         </div>
       </div>
   
-      <p class="text-base  text-black">&copy; 2024. Elimisha Watoto Foundation. All rights reserved.</p>
+      <p class="text-base  text-black">&copy; 2025. Elimisha Watoto Foundation. All rights reserved.</p>
     </div>
   </footer>
 </template>
