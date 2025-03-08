@@ -35,7 +35,7 @@
           <span class="font-bold text-4xl lg:text-8xl"
             >Elimisha Watoto Foundation</span
           >
-          <p class="text-2xl italic">Educate a Child, transform a Nation</p>
+          <p class="text-2xl italic">Educate a Child, Transform a Nation</p>
         </div>
       </div>
     </div>
