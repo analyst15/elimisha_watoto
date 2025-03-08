@@ -33,29 +33,6 @@
         <div class="flex flex-wrap justify-center md:py-12">
             <!-- Card 1 -->
             <div class="max-w-sm md:mx-auto overflow-hidden relative m-4 mx-4">
-                <div class="bg-slate-400 rounded-md shadow-lg overflow-hidden relative">
-                    <img src="@/assets/kidscls.png" class="h-96 w-full object-cover" alt="Kids Learning">
-                    <div class="absolute inset-0 bg-amber-700/80"></div>
-                    <div class="absolute inset-0 flex flex-col items-center justify-around text-white mx-4">
-                        <div>
-                            <i class="material-icons text-white text-8xl">lightbulb</i>
-                            <h1 class="text-center text-2xl font-bold">About Us</h1>
-                        </div>
-                        <p class="text-center">
-                            We are dedicated to mentoring and guiding bright and talented learners from economically
-                            disadvantaged backgrounds, empowering them to reach their full potential.
-                        </p>
-                        <!-- Number Circle -->
-                        <div
-                            class="w-10 h-10 bg-white text-amber-700 rounded-full flex items-center justify-center font-bold text-lg">
-                            1
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Card 2 -->
-            <div class="max-w-sm md:mx-auto overflow-hidden relative m-4 mx-4">
                 <div class="bg-slate-400 rounded-md shadow-md overflow-hidden relative">
                     <img src="@/assets/kidscls.png" class="h-96 w-full object-cover" alt="Kids Learning">
                     <div class="absolute inset-0 bg-stone-600/80"></div>
@@ -70,13 +47,13 @@
                         <!-- Number Circle -->
                         <div
                             class="w-10 h-10 bg-white text-stone-700 rounded-full flex items-center justify-center font-bold text-lg">
-                            2
+                            1
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Card 3 -->
+            <!-- Card 2 -->
             <div class="max-w-sm md:mx-auto overflow-hidden relative m-4 mx-4">
                 <div class="bg-slate-400 rounded-md shadow-md overflow-hidden relative">
                     <img src="@/assets/kidscls.png" class="h-96 w-full object-cover" alt="Kids Learning">
@@ -93,11 +70,40 @@
                         <!-- Number Circle -->
                         <div
                             class="w-10 h-10 bg-white text-emerald-700 rounded-full flex items-center justify-center font-bold text-lg">
+                            2
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="max-w-sm md:mx-auto overflow-hidden relative m-4 mx-4">
+                <div class="bg-slate-400 rounded-md shadow-lg overflow-hidden relative">
+                    <img src="@/assets/kidscls.png" class="h-96 w-full object-cover" alt="Kids Learning">
+                    <div class="absolute inset-0 bg-amber-700/80"></div>
+                    <div class="absolute inset-0 flex flex-col items-center justify-around text-white mx-4">
+                        <div>
+                            <i class="material-icons text-white text-8xl">lightbulb</i>
+                            <h1 class="text-center text-2xl font-bold">Values</h1>
+                        </div>
+                        <p class="text-center">
+                            <ul class="list-disc">
+                                <li>Honesty</li>
+                                <li>Accountability</li>
+                                <li>Transparency</li>
+                                <li>Integrity</li>
+                                <li>Innovation</li>
+                            </ul>
+                        </p>
+                        <!-- Number Circle -->
+                        <div
+                            class="w-10 h-10 bg-white text-amber-700 rounded-full flex items-center justify-center font-bold text-lg">
                             3
                         </div>
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
 </template>
