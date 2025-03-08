@@ -89,18 +89,15 @@
                   OUR OBJECTIVE
                 </a>
                 <ul class="text-white text-left text-sm p-4 list-disc">
-                  <li>Harnessing our traditional culture of giving.</li>
+                  <li>To provide access to quality education for bright and/or talented leamers from economically disadvantaged backgrounds </li>
                   <li>
-                    Providing hope and opportunity to needy but academically
-                    performing students in the community through education.
+                    To equip learners with critical life skills for resilience 
                   </li>
                   <li>
-                    Provision of a platform for willing donors and partners to
-                    make a difference in the education space.
+                    To establish and maintain strategic partnerships to leverage the Foundation's resources for sustainability 
                   </li>
                   <li>
-                    Equipping beneficiaries with the critical social and life
-                    skills for adaptability in society
+                    To strengthen the Foundation's institutional capacity for effective delivery of its mandate
                   </li>
                 </ul>
               </h3>
