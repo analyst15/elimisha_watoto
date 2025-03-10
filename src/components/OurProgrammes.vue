@@ -136,7 +136,7 @@ const fAHeading = ref("Financial Support")
 const fAParagraph = ref("To alleviate the financial burden on students and their families, we provide aid by covering tuition costs")
 const btn = ref("Read More")
 
-const aSHeading = ref("Academic Support")
+const aSHeading = ref("Academic Gaurdianship")
 const aSParagraph = ref("We are passionate about unlocking our students’ academic potential through:")
 
 const mHeading = ref("Mentorship")
