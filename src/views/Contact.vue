@@ -65,7 +65,7 @@
             </dl>
             <dl class="mt-10 space-y-4 text-base leading-7 text-gray-600">
               <span class="text-3xl font-bold text-emerald-600"
-                >Opening Hours</span
+                >Hours of Operation</span
               >
               <div class="flex gap-x-4">
                 <dt class="flex-none">
@@ -73,9 +73,9 @@
                 </dt>
                 <dd>
                   <p class="hover:text-gray-900">
-                    Monday - Friday 8:00am - 5:00pm
+                    Monday - Friday 8:30am - 5:00pm
                   </p>
-                  <p class="hover:text-gray-900">Saturdays 8:30am - 5:00pm</p>
+                  <p class="hover:text-gray-900">Saturdays 8:30am - 3:00pm</p>
                   <p class="hover:text-gray-900">
                     Closed on Sundays and Public Holidays
                   </p>
