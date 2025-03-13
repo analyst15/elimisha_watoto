@@ -76,7 +76,7 @@
                 <router-link
                   :to="{ name: 'AS' }"
                   class="block hover:bg-emerald-700 hover:text-white rounded-md p-1">
-                  Academic Support
+                  Academic Guardianship
                 </router-link>
               </div>
             </router-link>
@@ -230,7 +230,7 @@
             @click="openMenu = !openMenu"
             exact
             exact-active-class="active-link">
-            Academic Support
+            Academic Guardianship
           </router-link>
 
           <router-link
