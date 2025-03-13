@@ -1,13 +1,15 @@
 <template>
   <div>
-    <img
-      class="h-screen w-full "
-      src="../assets/WhatWeDo.jpeg"
-      alt="image description" />
+    <img class="h-screen w-full " src="../assets/WhatWeDo.jpeg" alt="image description" />
     <div>
-      <div
-        class="absolute inset-0  py-5 bg-opacity-70 bg-black h-full">
-        <h1 class="mt-40 text-white font-semibold text-5xl  text-center">
+      <div class="absolute inset-0  py-5 bg-opacity-70 bg-black h-full">
+        <h3 class="mt-32 text-white font-semibold text-5xl  text-center">OUR FOCUS</h3>
+        <div class="flex flex-wrap gap-4 justify-center text-lg mt-3">
+          <span class="bg-teal-700 text-2xl text-white rounded-2xl px-8 py-4 ml-3">Mentorship</span>
+          <span class="bg-teal-700 text-2xl text-white rounded-2xl px-8 py-4 ml-3">Support</span>
+          <span class="bg-teal-700 text-2xl text-white rounded-2xl px-8 py-4 ml-3">Empowerment</span>
+        </div>
+        <h1 class="mt-12 text-white font-semibold text-5xl  text-center">
           OUR WORK
         </h1>
         <!----<h1
@@ -19,15 +21,15 @@
           mentorship programs the students navigate their transition from
           adolescence to young adulthood.
         </h1>-->
-        
+
         <div class=" hidden md:block">
-        <WorkBox />
-      </div>
+          <WorkBox />
+        </div>
       </div>
 
       <div class=" block md:hidden bg-teal-400">
-      <WorkBox />
-    </div>
+        <WorkBox />
+      </div>
     </div>
   </div>
 </template>
