@@ -1,6 +1,6 @@
 <template>
   <div class="px-4 md:px-8 lg:px-16 xl:px-32 pt-40">
-    <div class="flex justify-center flex-wrap mb-5 gap-5">
+    <div class="flex flex-wrap mb-5 gap-5">
       <!----<img
         class="p-2 w-80"
         src="../assets/Gallery.png"
