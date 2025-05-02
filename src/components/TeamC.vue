@@ -6,7 +6,7 @@
             <div class="flex flex-col mt-8 items-center">
                 <img src="../assets/purity.png" alt="" class="rounded-full w-64 h-64">
                 <span class="font-bold text-xl pt-2 ">Purity Mutiga</span>
-                <span class="text-xl pt-2">Administrative Manager</span>
+                <span class="text-xl pt-2">Head of Administration</span>
             </div>
             <div class="flex flex-col mt-8 items-center">
                 <img src="../assets/masha.png" alt="" class="rounded-full w-64 h-64">
@@ -16,17 +16,12 @@
             <div class="flex flex-col mt-8 items-center">
                 <img src="../assets/liz.png" alt="" class="rounded-full w-64 h-64">
                 <span class="font-bold text-xl pt-2 ">Elizabeth Mwania</span>
-                <span class="text-xl pt-2">Administrator</span>
+                <span class="text-xl pt-2">Administrative Officer</span>
             </div>
-            <!----<div class="flex flex-col mt-8 items-center">
-                <img src="../assets/brenda.png" alt="" class="rounded-full w-64 h-64">
-                <span class="font-bold text-xl pt-2 ">Brenda Muthoni</span>
-                <span class="text-xl pt-2">Liaison Officer</span>
-            </div>-->
             <div class="flex flex-col mt-8 items-center">
                 <img src="../assets/susan.png" alt="" class="rounded-full w-64 h-64">
                 <span class="font-bold text-xl pt-2 ">Susan Muriuki</span>
-                <span class="text-xl pt-2">Liaison Officer</span>
+                <span class="text-xl pt-2">Finance Officer</span>
             </div>
             <div class="flex flex-col mt-8 items-center">
                 <img src="../assets/prince.png" alt="" class="rounded-full w-64 h-64">
@@ -47,6 +42,16 @@
                 <img src="../assets/salome.png" alt="" class="rounded-full w-64 h-64">
                 <span class="font-bold text-xl pt-2 ">Salome Njeri</span>
                 <span class="text-xl pt-2">Assistant Administrative Officer</span>
+            </div>
+            <div class="flex flex-col mt-8 items-center">
+                <img src="../assets/Warren.png" alt="" class="rounded-full w-64 h-64">
+                <span class="font-bold text-xl pt-2 ">Warren Bahati</span>
+                <span class="text-xl pt-2">Liaison Officer</span>
+            </div>
+            <div class="flex flex-col mt-8 items-center">
+                <img src="../assets/Wendy.png" alt="" class="rounded-full w-64 h-64">
+                <span class="font-bold text-xl pt-2 ">Wendy Achieng</span>
+                <span class="text-xl pt-2">Liaison Officer</span>
             </div>
             
         </div>
