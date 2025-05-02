@@ -19,7 +19,7 @@
     <div class="w-80 h-96 flex justify-center flex-col items-center border border-emerald-700 rounded-lg m-2">
       <i class="material-icons text-emerald-700 text-8xl">laptop_mac</i>
       <h1 class="mb-4 font-bold">Support</h1>
-      <p class="mx-8">Our liaison officers are expertsin their fields, offeringdedicated psychosocialsupport to our
+      <p class="mx-8">Our liaison officers are experts in their fields, offering dedicated psychosocial support to our
         beneficiaries.</p>
       <div class="w-10 h-10 bg-emerald-700 text-white rounded-full flex items-center justify-center font-bold text-lg">
         2
@@ -28,7 +28,7 @@
     <div class="w-80 h-96 flex justify-center flex-col items-center border border-emerald-700 rounded-lg m-2">
       <i class="material-icons text-emerald-700 text-8xl">auto_stories</i>
       <h1 class="mb-4 font-bold">Empower</h1>
-      <p class="mx-8">Through capacity-buildingefforts, our program is designedto empower our beneficiairieswith
+      <p class="mx-8">Through capacity-building efforts, our program is designed to empower our beneficiairies with
         essential life skills.</p>
       <div class="w-10 h-10 bg-emerald-700 text-white rounded-full flex items-center justify-center font-bold text-lg">
         3

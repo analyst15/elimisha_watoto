@@ -89,13 +89,6 @@
                 education.
               </span>
             </div>
-            <div class="mt-7">
-              <span class="text-black">These partnerships signify our collective dedication to sustainable
-                development, and we are grateful for the support of organizations
-                that share our vision. Together, we can make a significant impact on
-                the lives of deserving students.
-              </span>
-            </div>
 
           </div>
         </div>
