@@ -35,14 +35,14 @@
         <p class="text-2xl italic">Educate a Child, Transform a Nation</p>
 
         <!-- CTA Buttons -->
-        <div class="mt-6 flex">
+        <!----<div class="mt-6 flex">
           <a
             href="/contact"
             class="bg-orange-500 hover:bg-emerald-700 text-white py-3 px-20 rounded-lg text-2xl transition duration-300"
           >
             DONATE
           </a>
-        </div>
+        </div>-->
       </div>
     </div>
 
