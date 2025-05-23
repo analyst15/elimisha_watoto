@@ -106,11 +106,14 @@
             </div>
 
             <div class="mt-2">
-              <span class="text-black">Trans. Lieu Company Limited is a media content production house focused on telling
+              <span class="text-black">Trans. Lieu Company Limited is a media content production house focused on
+                telling
                 human interest stories. In collaboration with Elimisha Watoto Foundation, Trans.
                 Lieu has produced a compelling documentary that highlights the foundation's
-                work and brings to life our mission and achievements. We extend our heartfelt gratitude to Trans. Lieu for
-                their contribution in effectively articulating our narrative of transformation through education. To watch
+                work and brings to life our mission and achievements. We extend our heartfelt gratitude to Trans. Lieu
+                for
+                their contribution in effectively articulating our narrative of transformation through education. To
+                watch
                 this story, please visit EWF's social media channels.
               </span>
             </div>
@@ -119,6 +122,34 @@
                 development, and we are grateful for the support of organizations
                 that share our vision. Together, we can make a significant impact on
                 the lives of deserving students.
+              </span>
+            </div>
+
+          </div>
+        </div>
+
+        <div class=" grid grid-cols-5 items-center ">
+          <div>
+            <img class=" w-40 "
+              src="https://firebasestorage.googleapis.com/v0/b/travelapp-23e4c.appspot.com/o/ACCTI%20Logo-1.png?alt=media&token=ea6d2b02-ac2a-41cf-afc4-5ec79f9908cf" />
+          </div>
+          <div class=" col-span-4">
+            <div class="mt-6 ">
+              <span class="text-black font-bold text-2xl">
+                5. Amani Counselling Centre & Training Institute
+              </span>
+            </div>
+
+            <div class="mt-2">
+              <span class="text-black">Since 1979, Amani Counselling Centre and Training Institute (ACCTI) has been the
+                cornerstone of mental health and counselling in Kenya.
+                As a valued Friend of Elimisha, ACCTI walks alongside us to provide psychosocial support to children who
+                experience trauma, loss, or adversity, ensuring they thrive both emotionally and academically through
+                access to professional counselling, emotional resilience programs, and essential life skills training
+                Our partnership also extends to staff well-being through the Employee Assistance Programmes(EAPS), where
+                ACCTI offers training and capacity building initiative to strengthen our team mental health and
+                performance.
+
               </span>
             </div>
 
