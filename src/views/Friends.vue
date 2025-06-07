@@ -6,7 +6,7 @@
 
     <div class="justify-center items-center font-sans py-14">
       <div>
-        <div>
+        <div class="text-justify">
           <span class="text-black">We are excited to share some recent collaborations that underscore
             our commitment to enhancing education and alleviating poverty.
             Elimisha Watoto Foundation is proud to be associated with the
@@ -26,7 +26,7 @@
               </span>
             </div>
 
-            <div class="mt-2">
+            <div class="mt-2 text-justify">
               <span class="text-black">Established in 2007, KCB Foundation embodies the KCB Bank Group's
                 commitment to Corporate Social Responsibility. Elimisha Watoto
                 Foundation collaborates with KCB in supporting needy students,
@@ -54,7 +54,7 @@
               </span>
             </div>
 
-            <div class="mt-2">
+            <div class="mt-2 text-justify">
               <span class="text-black">HHRD is a global humanitarian relief and development organization
                 responding to emergencies worldwide. Elimisha Watoto Foundation
                 proudly joins hands with HHRD, contributing to their education
@@ -78,7 +78,7 @@
               </span>
             </div>
 
-            <div class="mt-2">
+            <div class="mt-2 text-justify">
               <span class="text-black">Mohware IT, an IT firm specializing in services for various
                 industries, has played a pivotal role in our journey. They developed
                 the Elimisha Watoto Student Portal and generously donated Version 2.0 as part
@@ -105,7 +105,7 @@
               </span>
             </div>
 
-            <div class="mt-2">
+            <div class="mt-2 text-justify">
               <span class="text-black">Trans. Lieu Company Limited is a media content production house focused on
                 telling
                 human interest stories. In collaboration with Elimisha Watoto Foundation, Trans.
@@ -115,13 +115,6 @@
                 their contribution in effectively articulating our narrative of transformation through education. To
                 watch
                 this story, please visit EWF's social media channels.
-              </span>
-            </div>
-            <div class="mt-7">
-              <span class="text-black">These partnerships signify our collective dedication to sustainable
-                development, and we are grateful for the support of organizations
-                that share our vision. Together, we can make a significant impact on
-                the lives of deserving students.
               </span>
             </div>
 
@@ -140,16 +133,27 @@
               </span>
             </div>
 
-            <div class="mt-2">
-              <span class="text-black">Since 1979, Amani Counselling Centre and Training Institute (ACCTI) has been the
-                cornerstone of mental health and counselling in Kenya.
-                As a valued Friend of Elimisha, ACCTI walks alongside us to provide psychosocial support to children who
-                experience trauma, loss, or adversity, ensuring they thrive both emotionally and academically through
-                access to professional counselling, emotional resilience programs, and essential life skills training
-                Our partnership also extends to staff well-being through the Employee Assistance Programmes(EAPS), where
-                ACCTI offers training and capacity building initiative to strengthen our team mental health and
-                performance.
+            <div class="mt-2 text-justify">
+              <span class="text-black">Since 1979, Amani Counselling Centre and Training Institute (ACCTI) has been a
+                pioneer in advancing mental health and counselling services in Kenya.
+                As a trusted partner of Elimisha, ACCTI provides critical psychosocial support to students under our
+                scholarship program many of whom have faced trauma, loss, or significant adversity. Through professional
+                counselling, emotional resilience training, and life skills development, these students are empowered to
+                heal and excel both emotionally and academically.
+                Beyond student support, ACCTI also promotes staff well-being through Employee Assistance Programmes
+                (EAPs), offering specialized training and capacity-building sessions to strengthen mental health and
+                optimize performance across our team.
+                Together, we are nurturing a generation of emotionally resilient learners and compassionate leaders.
 
+
+              </span>
+            </div>
+
+            <div class="mt-7 text-justify">
+              <span class="text-black">These partnerships signify our collective dedication to sustainable
+                development, and we are grateful for the support of organizations
+                that share our vision. Together, we can make a significant impact on
+                the lives of deserving students.
               </span>
             </div>
 
