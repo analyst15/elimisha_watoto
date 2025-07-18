@@ -53,6 +53,11 @@
                 <span class="font-bold text-xl pt-2 ">Wendy Achieng</span>
                 <span class="text-xl pt-2">Liaison Officer</span>
             </div>
+            <div class="flex flex-col mt-8 items-center">
+                <img src="../assets/Wanjiru.jpg" alt="" class="rounded-full w-64 h-64">
+                <span class="font-bold text-xl pt-2 ">Wanjiru Wakaba</span>
+                <span class="text-xl pt-2">Communication & Media Lead</span>
+            </div>
             
         </div>
     </div>
