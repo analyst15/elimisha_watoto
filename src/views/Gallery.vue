@@ -39,7 +39,7 @@
         alt="image description" />-->
         <img
         class="p-2 w-80"
-        src="../assets/Gallery_9.png"
+        src="../assets/Gallery_14.png"
         alt="image description" />
         <!----<img
         class="p-2 w-80"
@@ -56,6 +56,34 @@
         <img
         class="p-2 w-80"
         src="../assets/Gallery_13.png"
+        alt="image description" />
+        <img
+        class="p-2 w-80"
+        src="../assets/Gallery_15.jpg"
+        alt="image description" />
+        <img
+        class="p-2 w-80"
+        src="../assets/Gallery_16.png"
+        alt="image description" />
+        <img
+        class="p-2 w-80"
+        src="../assets/Gallery_17.png"
+        alt="image description" />
+        <img
+        class="p-2 w-80"
+        src="../assets/Gallery_19.png"
+        alt="image description" />
+        <img
+        class="p-2 w-80"
+        src="../assets/Gallery_20.png"
+        alt="image description" />
+        <img
+        class="p-2 w-80"
+        src="../assets/Gallery_21.png"
+        alt="image description" />
+        <img
+        class="p-2 w-80"
+        src="../assets/Gallery_22.png"
         alt="image description" />
     </div>
   </div>

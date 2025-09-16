@@ -225,7 +225,7 @@
               <nav class="flex flex-col mt-4 space-y-2 text-sm">
                 <div class="md:block hidden">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7977.683673920301!2d36.80307799116752!3d-1.267658744881094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f17155bc87d13%3A0xc8aec5a75ccd330e!2sWoodvale%20Place%2C%20Nairobi!5e0!3m2!1sen!2ske!4v1709373114541!5m2!1sen!2ske"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8473343436935!2d36.80341561118062!3d-1.2640852454018978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f178060c0d21b%3A0x586aa06fbf3d0b37!2sElimisha%20Watoto%20Foundation!5e0!3m2!1sen!2ske!4v1758011741680!5m2!1sen!2ske"
                     width="300px"
                     height="300"
                     style="border: 0"
@@ -236,7 +236,7 @@
                 </div>
                 <div class="block md:hidden">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7977.683673920301!2d36.80307799116752!3d-1.267658744881094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f17155bc87d13%3A0xc8aec5a75ccd330e!2sWoodvale%20Place%2C%20Nairobi!5e0!3m2!1sen!2ske!4v1709373114541!5m2!1sen!2ske"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8473343436935!2d36.80341561118062!3d-1.2640852454018978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f178060c0d21b%3A0x586aa06fbf3d0b37!2sElimisha%20Watoto%20Foundation!5e0!3m2!1sen!2ske!4v1758011741680!5m2!1sen!2ske"
                     width="300"
                     height="300"
                     style="border: 0"
@@ -295,4 +295,7 @@ export default {
 
 
 </style>
+
+
+
 

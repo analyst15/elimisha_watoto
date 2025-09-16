@@ -109,7 +109,7 @@
                 
             </div>-->
             <div class="min-h-screen bg-white text-gray-900 flex items-center justify-center p-6">
-    <div class="max-w-3xl w-full text-left md:text-center">
+    <div class="max-w-6xl w-full text-left md:text-center">
       <!-- Logo -->
       <div class="flex justify-center mb-6">
         <img 
@@ -120,21 +120,36 @@
       </div>
 
       <!-- Heading -->
-      <h1 class="text-2xl md:text-3xl font-semibold mb-4">
-        Life Experience and Preparation
+      <h1 class="text-2xl text-left md:text-3xl font-semibold mb-4">
+        Life Experience and Preparation(LEAP)
       </h1>
 
       <!-- Subheading -->
-      <p class="text-lg text-left font-semibold mb-6">
-        <span class="text-gray-900">Beyond Academics.</span> Towards Life.
+      <p class="text-lg text-left mb-6">
+        We believe in equipping learners with the tools to thrive beyond academics.
       </p>
 
+      <p class="text-lg text-left mt-6 mb-4">
+        Our <span class="font-semibold">LEAP Programme</span> provides:
+      </p>
+
+      <p class="text-gray-900 leading-relaxed text-left mb-4">
+        A tailor-made curriculum for Form 4 (KCSE), Form 5–6 (A-Levels), and students transitioning into local or international universities.
+      </p>
       <p class="text-gray-900 leading-relaxed text-left">
-        At Elimisha, we know that success in life requires more than good grades. That’s why we created LEAP (Life Experience and Preparation) a tailor-made program for Form 4 (KCSE), 
-        Form 5–6 (A-Levels), and students transitioning into both local and international universities. LEAP goes beyond academic readiness to empower learners with the life, social, and career skills that traditional school systems often overlook.
+        Training in three pillars:
+      </p>
+        <ul class="list-disc list-inside ml-5 text-left">
+        <li class="mb-2">Becoming a Better Person – focusing on personal presentation, dining etiquette, budgeting, time management, confidence, and positive habits.</li>
+        <li class="mb-2">Becoming a People’s Person – building communication, empathy, conflict resolution, leadership, and teamwork skills.</li>
+        <li class="mb-2">Building a Meaningful Career – enhancing digital literacy, online etiquette, personal branding, CV preparation, study skills, and pre-departure readiness.</li>
+        </ul>
+
+      <p class="text-gray-900 leading-relaxed text-left mt-4 mb-4">
+        We prepare students to face life with confidence, resilience, and purpose.
       </p>
       
-      <p class="text-lg text-left font-semibold mt-6 mb-6">
+      <!-- <p class="text-lg text-left font-semibold mt-6 mb-6">
         Why LEAP Matters
       </p>
 
@@ -190,7 +205,7 @@
       <p class="text-gray-900 leading-relaxed text-left">
       Countries that integrate life skills into education (like Kenya’s CBC initiative) report improved academic performance, reduced teenage pregnancies, better discipline, and stronger resilience (UNFPA Kenya).
       At Elimisha, LEAP is more than preparation it’s transformation. We walk with every learner so they don’t just pass exams, they thrive in life.
-      </p>
+      </p> -->
       
     </div>
   </div>
