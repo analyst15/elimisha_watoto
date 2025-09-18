@@ -1,84 +1,93 @@
 <template>
-  <div class="px-4 md:px-8 lg:px-16 xl:px-32 pt-40">
-    <div class="py-10 text-center font-bold font-sans text-4xl text-black">
-      Office of Liaison
+
+<!-- Hero Section: Fullscreen Image Slider -->
+<section class="w-full h-screen pt-20">
+  <div class="absolute inset-0 z-10 mt-24 flex items-center justify-center">
+    <WorkBox />
+  </div>
+
+  <!-- Swiper Slideshow -->
+<Swiper
+  :modules="[Autoplay, Pagination, Navigation]"
+  :grab-cursor="true"
+  :loop="true"
+  :autoplay="{ delay: 4500, disableOnInteraction: false }"
+  :spaceBetween="30"
+  :effect="'fade'"
+  :navigation="true"
+  :pagination="{ clickable: true }"
+  class="w-full h-full"
+>
+  <SwiperSlide>
+    <div class="relative w-full h-full">
+      <img
+        src="@/assets/office-of-liaison.jpg"
+        alt="Liaison Office"
+        class="w-full h-full object-cover object-top"
+      />
+      <div class="absolute inset-0 bg-black bg-opacity-50"></div>
     </div>
-    <section>
-      <div
-        id="default-carousel"
-        class="relative rounded-lg overflow-hidden"
-        data-carousel="static"
-      >
-        <!-- Carousel wrapper -->
-        <div class="text-center">
-          <div class="mx-auto max-w-xl">
-            <Swiper
-              :modules="[Autoplay, Pagination, Navigation]"
-              effect="fade"
-              :grab-cursor="true"
-              :loop="true"
-              :autoplay="{
-                delay: 4500,
-                disableOnInteraction: false,
-              }"
-              :spaceBetween="30"
-              :effect="'fade'"
-              :navigation="true"
-              :pagination="{
-                clickable: true,
-              }"
-              class="mySwiper"
-            >
-              <SwiperSlide>
-                <img
-                  src="https://static.wixstatic.com/media/51210f_19bddad682364722bc4dd5b0fb00b4c9~mv2.jpg/v1/fill/w_578,h_374,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/51210f_19bddad682364722bc4dd5b0fb00b4c9~mv2.jpg"
-                />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img
-                  src="https://static.wixstatic.com/media/51210f_75f2bbe7a337429fa8a0968d50e9f5dd~mv2.jpg/v1/fill/w_578,h_374,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/51210f_75f2bbe7a337429fa8a0968d50e9f5dd~mv2.jpg"
-                />
-              </SwiperSlide>
-            </Swiper>
-          </div>
-        </div>
-      </div>
-    </section>
+  </SwiperSlide>
+  <SwiperSlide>
+    <div class="relative w-full h-full">
+      <img
+        src="@/assets/office-of-liaison-2.jpg"
+        alt="Liaison Visit"
+        class="w-full h-full object-cover object-top"
+      />
+      <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+    </div>
+  </SwiperSlide>
+  <SwiperSlide>
+    <div class="relative w-full h-full">
+      <img
+        src="@/assets/office-of-liaison-3.jpg"
+        alt="Student Mentorship"
+        class="w-full h-full object-cover object-top"
+      />
+      <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+    </div>
+  </SwiperSlide>
+</Swiper>
 
+</section>
+  <div class="px-4 md:px-8 lg:px-16 xl:px-32 pb-10">
+    <div class="py-5 text-center font-bold font-sans text-4xl text-black">
+      The Student Liaison Office: Guiding Students to Success
+    </div>
     <!-- Office of Liaison -->
-    <div class="justify-center items-center font-sans py-14">
+    <div class="justify-center items-center font-sans">
       <div class=" ">
-        <div class="mt-6">
+        <div class="mt-3">
           <span class="text-black font-bold text-xl">
-            1. Who is a liaison officer ?
+            Who is a Student Liaison Officer?
           </span>
         </div>
 
         <div class="mt-2">
           <span class="text-black"
-            >A student liaison officer is a personal helpful guide and supporter
-            for students through their academic journey.
+            >A Student Liaison Officer is a dedicated guide and personal supporter who walks with each student throughout
+            their academic journey. They serve as a mentor, motivator, and bridge between the student and the Elimisha
+            Watoto Foundation.
           </span>
         </div>
 
         <div class="mt-6">
           <span class="text-black font-bold text-xl">
-            2. What does a student liaison officer do ?
+            Why the Student Liaison Office Matters
           </span>
         </div>
 
         <div class="mt-2">
           <span class="text-black"
-            >A student liaison officer helps students by keeping track of their
-            academic progress, visiting them at school to offer guidance and
-            mentorship, and being a source of motivation. They also assist
-            students in setting and achieving their goals.
+            >The Student Liaison Office is a vital link between the Foundation and the children we serve. It ensures that
+              every sponsored child is seen, heard, and supported in a holistic way.
           </span>
         </div>
 
         <div class="mt-6">
           <span class="text-black font-bold text-xl">
-            3. What is the importance of a student liaison office ?
+            The Role of the Student Liaison Office
           </span>
         </div>
 
@@ -88,15 +97,32 @@
             Foundation by serving as a vital link between the foundation and the
             students it supports.
           </span>
+          <p class="text-black leading-relaxed">
+          The <span class="font-semibold">Student Liaison</span> Office is the heartbeat of our student engagement
+          </p>
+          <p class="text-black leading-relaxed">
+          Our liaison officers:
+          </p>
+          <ul class="list-disc list-inside text-black space-y-2">
+          <li>Track academic progress and intervene when needed</li>
+          <li>Build personal bonds through regular school visits</li>
+          <li>Act as mentors and motivators</li>
+          <li>Advocate for student needs within the Foundation</li>
+          <li>Ensure that every child’s voice is heard, and every success celebrated</li>
+          </ul>
+          <p class="text-black leading-relaxed">
+          Their work ensures our support is not just a system, but a relationship built on trust, care, and a shared dream for
+          a better future.
+          </p>
         </div>
       </div>
     </div>
 
     <!-- Key Importances -->
-    <div class="mt-10 text-center font-bold font-sans text-4xl text-teal-700">
+    <!----<div class="mt-5 text-center font-bold font-sans text-4xl text-teal-700">
       Roles of Liaison officers
     </div>
-    <div class="justify-center items-center font-sans py-14">
+    <div class="justify-center items-center font-sans py-8">
       <div class=" ">
         <div class="mt-6">
           <span class="text-black font-bold text-xl">
@@ -191,11 +217,12 @@
           </span>
         </div>
       </div>
-    </div>
+    </div>-->
   </div>
 </template>
 
 <script setup>
+import WorkBox from "../components/WorkBox.vue";
 import { Swiper, SwiperSlide } from "swiper/vue";
 import "swiper/css";
 import { ref } from "vue";

@@ -1,5 +1,5 @@
 <template>
-                    <h1 class="text-4xl mb-4 font-extrabold text-center"><span class="underline underline-offset-8 decoration-emerald-700 decoration-4">Did </span>you know</h1>
+                    <h1 class="text-4xl mb-4 font-extrabold text-center">Di<span class="underline underline-offset-8 decoration-emerald-700 decoration-4">d you k</span>now</h1>
 
     <div class=" py-20">
         <Swiper :modules="[ Autoplay, Pagination, Navigation]" effect="fade" 

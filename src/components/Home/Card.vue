@@ -36,19 +36,15 @@
                 <div class="bg-slate-400 rounded-md shadow-md overflow-hidden relative">
                     <img src="@/assets/kidscls.png" class="h-96 w-full object-cover" alt="Kids Learning">
                     <div class="absolute inset-0 bg-stone-600/80"></div>
-                    <div class="absolute inset-0 flex flex-col items-center justify-around text-white mx-4">
+                    <div class="absolute inset-0 flex flex-col items-center text-white mx-4">
                         <div>
-                            <i class="material-icons text-white text-8xl">ads_click</i>
+                            <i class="material-icons pt-10 text-white text-8xl">ads_click</i>
                             <h1 class="text-center text-2xl font-bold">Vision</h1>
                         </div>
-                        <p class="text-center">
+                        <p class="text-center pt-10">
                             Well-rounded education for an empowered generation.
                         </p>
                         <!-- Number Circle -->
-                        <div
-                            class="w-10 h-10 bg-white text-stone-700 rounded-full flex items-center justify-center font-bold text-lg">
-                            1
-                        </div>
                     </div>
                 </div>
             </div>
@@ -58,20 +54,16 @@
                 <div class="bg-slate-400 rounded-md shadow-md overflow-hidden relative">
                     <img src="@/assets/kidscls.png" class="h-96 w-full object-cover" alt="Kids Learning">
                     <div class="absolute inset-0 bg-emerald-700/80"></div>
-                    <div class="absolute inset-0 flex flex-col items-center justify-around text-white mx-4">
+                    <div class="absolute inset-0 flex flex-col items-center text-white mx-4">
                         <div>
-                            <i class="material-icons text-white text-8xl">diversity_3</i>
+                            <i class="material-icons text-white text-8xl pt-10">diversity_3</i>
                             <h1 class="text-center text-2xl font-bold">Mission</h1>
                         </div>
-                        <p class="text-center">
+                        <p class="text-center pt-10">
                             To provide access to quality education to economically disadvantaged learners through
                             scholarships.
                         </p>
                         <!-- Number Circle -->
-                        <div
-                            class="w-10 h-10 bg-white text-emerald-700 rounded-full flex items-center justify-center font-bold text-lg">
-                            2
-                        </div>
                     </div>
                 </div>
             </div>
@@ -81,12 +73,12 @@
                 <div class="bg-slate-400 rounded-md shadow-lg overflow-hidden relative">
                     <img src="@/assets/kidscls.png" class="h-96 w-full object-cover" alt="Kids Learning">
                     <div class="absolute inset-0 bg-amber-700/80"></div>
-                    <div class="absolute inset-0 flex flex-col items-center justify-around text-white mx-4">
+                    <div class="absolute inset-0 flex flex-col items-center text-white mx-4">
                         <div>
-                            <i class="material-icons text-white text-8xl">lightbulb</i>
+                            <i class="material-icons text-white pt-10 text-8xl">lightbulb</i>
                             <h1 class="text-center text-2xl font-bold">Values</h1>
                         </div>
-                        <p class="text-center">
+                        <p class="text-center pt-10">
                             <ul class="list-disc">
                                 <li>Honesty</li>
                                 <li>Accountability</li>
@@ -96,10 +88,6 @@
                             </ul>
                         </p>
                         <!-- Number Circle -->
-                        <div
-                            class="w-10 h-10 bg-white text-amber-700 rounded-full flex items-center justify-center font-bold text-lg">
-                            3
-                        </div>
                     </div>
                 </div>
             </div>

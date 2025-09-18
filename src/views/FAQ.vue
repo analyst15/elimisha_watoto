@@ -1,4 +1,4 @@
-<template>
+<!----<template>
   
     <div class="relative ">
         <div>
@@ -44,7 +44,7 @@
                 </svg>
               </button>
             </div>
-          </form> -->
+          </form> --
   
           <div class="mx-auto mt-6 grid max-w-xl divide-y divide-neutral-200">
             <div class="py-5">
@@ -74,7 +74,7 @@
                 </summary>
                 <p class="group-open:animate-fadeIn mt-3 text-neutral-600">
                   The Amini Elimu Foundation will fully cover the administration
-                  costs for Elimisha Foundation. All donor funding raised will be
+                  costs for Elimisha Foundation. All supporter funding raised will be
                   used in supporting the beneficiaries.
                 </p>
               </details>
@@ -85,7 +85,7 @@
                   class="flex cursor-pointer list-none items-center justify-between font-medium"
                 >
                   <span>
-                    What happens to the beneficiary if a donor cannot continue to
+                    What happens to the beneficiary if a supporter cannot continue to
                     provide funding?</span
                   >
                   <span class="transition group-open:rotate-180">
@@ -106,7 +106,7 @@
                 </summary>
                 <p class="group-open:animate-fadeIn mt-3 text-neutral-600">
                   The foundation will assume the role of providing for the
-                  beneficiary in the event that a donor is unable to carry on with
+                  beneficiary in the event that a supporter is unable to carry on with
                   support. The objective is to ensure that the affected learner’s
                   academic advancement remains uninterrupted.
                 </p>
@@ -141,7 +141,7 @@
                   Case selection and management will be need-based and will be
                   subject to Board approval. A hotline number and email address
                   will be provided in the contact information section. We shall
-                  also onboard beneficiaries who have been identified by donors
+                  also onboard beneficiaries who have been identified by supporters
                   and accommodate them in the programme cycle.
                 </p>
               </details>
@@ -152,7 +152,7 @@
                   class="flex cursor-pointer list-none items-center justify-between font-medium"
                 >
                   <span>
-                    Do you provide an opportunity for donors with specific
+                    Do you provide an opportunity for supporters with specific
                     criteria to select their beneficiaries?</span
                   >
                   <span class="transition group-open:rotate-180">
@@ -173,7 +173,7 @@
                 </summary>
                 <p class="group-open:animate-fadeIn mt-3 text-neutral-600">
                   Yes, we will offer a list of beneficiaries and their profiles to
-                  the donors for selection.
+                  the supporters for selection.
                 </p>
               </details>
             </div>
@@ -182,7 +182,7 @@
                 <summary
                   class="flex cursor-pointer list-none items-center justify-between font-medium"
                 >
-                  <span> Do the donors have access to the beneficiaries?</span>
+                  <span> Do the supporters have access to the beneficiaries?</span>
                   <span class="transition group-open:rotate-180">
                     <svg
                       fill="none"
@@ -202,7 +202,7 @@
                 <p class="group-open:animate-fadeIn mt-3 text-neutral-600">
                   Yes, we will open a file for each beneficiary. The file will
                   include details such as academic progress, student profile,
-                  profile photo and general progress. Each donor will have access
+                  profile photo and general progress. Each supporter will have access
                   to their specific beneficiary through a personal username and
                   password.
                 </p>
@@ -212,14 +212,9 @@
         </div>
       </div>
     </div>
-
-
-
-
-
     </div>
-    <!-- </div> -->
-  </template>
+    <!-- </div> --
+  </template>--
   
   <script>
   
@@ -233,5 +228,131 @@
       };
     },
   };
-  </script>
+  </script>-->
+<template>
+  <div class="min-h-screen bg-gray-100 px-4 py-16 sm:px-8 md:px-20 lg:px-32">
+    <h1 class="text-4xl font-bold text-center text-teal-700 mb-10"></h1>
+
+    <!-- Sections -->
+    <div class="space-y-6">
+      <FaqSection
+        :questions="generalQuestions"
+      />
+      <FaqSection
+        title="Contributions and Donations"
+        :questions="contributionQuestions"
+      />
+      <FaqSection
+        title="Transparency and Accountability"
+        :questions="transparencyQuestions"
+      />
+      <FaqSection
+        title="Programs and Involvement"
+        :questions="programsQuestions"
+      />
+    </div>
+  </div>
+</template>
+
+<script>
+import FaqSection from "@/components/FaqSection.vue";
+
+export default {
+  components: {
+    FaqSection,
+  },
+  data() {
+    return {
+      generalQuestions:[
+        {
+          question: "How does the organisation cover their administration costs?",
+          answer:
+            "The Amini Elimu Foundation will fully cover the administration costs for Elimisha Foundation. All supporter funding raised will be used in supporting the beneficiaries.",
+        },
+        {
+          question: "What happens to the beneficiary if a supporter cannot continue to provide funding?",
+          answer:
+            "The foundation will assume the role of providing for the beneficiary in the event that a supporter is unable to carry on with support. The objective is to ensure that the affected learner’s academic advancement remains uninterrupted.",
+        },
+        {
+          question: "How do you support special cases of students who are already in secondary school?",
+          answer:
+            "Case selection and management will be need-based and will be subject to Board approval. A hotline number and email address will be provided in the contact information section. We shall also onboard beneficiaries who have been identified by supporters and accommodate them in the programme cycle.",
+        },
+        {
+          question: "Do you provide an opportunity for supporters with specific criteria to select their beneficiaries?",
+          answer:
+            "Yes, we will offer a list of beneficiaries and their profiles to the supporters for selection.",
+        },
+        {
+          question: "Do the supporters have access to the beneficiaries?",
+          answer:
+            "Yes, we will open a file for each beneficiary. The file will include details such as academic progress, student profile, profile photo and general progress. Each supporter will have access to their specific beneficiary through a personal username and password.",
+        }
+      ],
+      contributionQuestions: [
+        {
+          question: "Can I get a refund for my contribution?",
+          answer:
+            "At Elimisha Watoto Foundation, contributions are generally considered donations and are non-refundable. However, if you have concerns, reach out to our team.",
+        },
+        {
+          question: "Why are contributions non-refundable?",
+          answer:
+            "Your donation is allocated immediately to programs that support children. As a result, we cannot process refunds, but your support is impactful.",
+        },
+        {
+          question: "Can I contribute on behalf of a company or organization?",
+          answer:
+            "Yes. We welcome organizational donations. Contact us to explore partnership options.",
+        },
+      ],
+      transparencyQuestions: [
+        {
+          question: "How do I know my support is making a difference?",
+          answer:
+            "We provide updates, stories, and reports regularly to show the impact your support is having.",
+        },
+        {
+          question: "Can I request a breakdown of how my support was used?",
+          answer:
+            "Yes. You can request a breakdown and also access details via the Student Support Portal using your login.",
+        },
+        {
+          question: "Can I update my contact details and communication preferences?",
+          answer:
+            "Yes. Log in to your supporter account or contact us directly to update your details.",
+        },
+      ],
+      programsQuestions: [
+        {
+          question: "Can I support a child directly?",
+          answer:
+            "Yes. You can sponsor a child and receive updates on their academic and personal progress.",
+        },
+        {
+          question: "Can I volunteer at Elimisha Watoto Foundation?",
+          answer:
+            "Absolutely. We welcome volunteers in areas such as PR, welfare, finance, and more.",
+        },
+        {
+          question:
+            "Do you offer corporate volunteering or CSR partnerships?",
+          answer:
+            "Yes. Reach out to us to discuss how your company can collaborate with us.",
+        },
+        {
+          question: "Can I contribute by leaving a Google review?",
+          answer:
+            "Yes. A positive review helps build trust and encourages others to support our mission.",
+        },
+      ],
+    };
+  },
+};
+</script>
+
+<style scoped>
+</style>
+
   
