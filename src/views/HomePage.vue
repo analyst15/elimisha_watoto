@@ -48,7 +48,7 @@
 
     <Card />
     <Band />
-    <Values />
+    <!---<Values />-->
     <Programs />
     <Slider />
   </div>

@@ -1,4 +1,4 @@
-<template>
+<!----<template>
   <div class="relative z-50">
     <nav class="bg-white fixed w-full">
       <div
@@ -15,6 +15,22 @@
             </router-link>
 
             <router-link
+              :to="{ name: 'programmes' }"
+              class="border-b-2 border-transparent focus:text-green-500 focus:border-red-700 hover:text-gray-800 transition-colors duration-300 transform dark:text-gray-800 hover:border-blue-500 mx-4"
+              exact
+              exact-active-class="active-link">
+              Our Programmes
+            </router-link>
+
+            <router-link
+              :to="{ name: 'liaison' }"
+              class="border-b-2 border-transparent focus:text-green-500 focus:border-red-700 hover:text-gray-800 transition-colors duration-300 transform dark:text-gray-800 hover:border-blue-500 mx-4"
+              exact
+              exact-active-class="active-link">
+              Office of Liaison
+            </router-link>
+
+            <!----<router-link
               :to="{ name: 'AboutUs' }"
               class="border-b-2 border-transparent focus:text-green-500 focus:border-red-700 hover:text-gray-800 transition-colors duration-300 transform dark:text-gray-800 hover:border-blue-500 mx-4"
               @mouseenter="isHovered = true"
@@ -28,32 +44,44 @@
                 class="top-full left-0 absolute hover:bg-emerald-700 hover:text-white rounded-md p-1">
                 Our Team
               </router-link>
-            </router-link>
-
-            <router-link
-              :to="{ name: 'work' }"
-              @mouseenter="isHovered1 = true"
-              @mouseleave="isHovered1 = false"
-              id="dropdownDelayButton"
-              data-dropdown-toggle="dropdownDelay"
-              data-dropdown-delay="500"
-              data-dropdown-trigger="hover"
-              class="border-b-2 border-transparent focus:text-green-500 focus:border-red-700 hover:text-gray-800 transition-colors duration-300 transform dark:text-gray-800 hover:border-blue-500 relative mx-4"
-              exact
-              exact-active-class="active-link">
-              What We Do
+            </router-link>--
 
               <router-link
-                :to="{ name: 'liaison' }"
-                v
-                v-if="isHovered1"
-                class="absolute top-full left-0 hover:bg-emerald-700 hover:text-white rounded-md p-1 w-36">
-                Office of Liason
-              </router-link>
-            </router-link>
+                :to="{ name: 'work' }"
+                @mouseenter="isHovered1 = true"
+                @mouseleave="isHovered1 = false"
+                id="dropdownDelayButton"
+                data-dropdown-toggle="dropdownDelay"
+                data-dropdown-delay="500"
+                data-dropdown-trigger="hover"
+                class="border-b-2 border-transparent focus:text-green-500 focus:border-red-700 hover:text-gray-800 transition-colors duration-300 transform dark:text-gray-800 hover:border-blue-500 relative mx-4"
+                exact
+                exact-active-class="active-link"
+              >
+                What We Do
 
-            <router-link
-              :to="{ name: 'programmes' }"
+                <div
+                  v-if="isHovered1"
+                  class="absolute top-full left-0 bg-white shadow-md rounded-md w-40 z-50"
+                >
+                  <router-link
+                    :to="{ name: 'liaison' }"
+                    class="block px-4 py-2 hover:bg-emerald-700 hover:text-white rounded-t-md"
+                  >
+                    Office of Liaison
+                  </router-link>
+                  <router-link
+                    :to="{ name: 'programmes' }"
+                    class="block px-4 py-2 hover:bg-emerald-700 hover:text-white rounded-b-md"
+                  >
+                    Our Programmes
+                  </router-link>
+                </div>
+              </router-link>-->
+
+
+            <!----<router-link
+              :to="{ name: 'programmes' /**name: 'programmes' */ }"
               @mouseenter="isHovered3 = true"
               @mouseleave="isHovered3 = false"
               class="border-b-2 border-transparent focus:text-green-500 focus:border-red-700 hover:text-gray-800 transition-colors duration-300 transform text-gray-800 hover:border-blue-500 mx-4"
@@ -79,6 +107,31 @@
                   Academic Guardianship
                 </router-link>
               </div>
+            </router-link>--
+
+            <router-link
+              :to="{ name: 'friends' }"
+              @mouseenter="isHovered2 = true"
+              @mouseleave="isHovered2 = false"
+              class="border-b-2 border-transparent focus:text-green-500 focus:border-red-700 hover:text-gray-800 transition-colors duration-300 transform dark:text-gray-800 hover:border-blue-500 mx-4"
+              exact
+              exact-active-class="active-link">
+              friends of elimisha
+              <!----<router-link
+                :to="{ name: 'friends' }"
+                v-if="isHovered2"
+                @click="goToFriends()"
+                class="absolute top-full left-0 hover:bg-emerald-700 hover:text-white rounded-md p-1 w-36">
+                Friends of Elimisha
+              </router-link>--
+            </router-link>
+
+            <router-link
+              :to="{ name: 'team' }"
+              class="border-b-2 border-transparent focus:text-green-500 focus:border-red-700 hover:text-gray-800 transition-colors duration-300 transform text-gray-800 hover:border-blue-500 mx-4"
+              exact
+              exact-active-class="active-link">
+              Our Team
             </router-link>
 
             <router-link
@@ -87,23 +140,6 @@
               exact
               exact-active-class="active-link">
               Gallery
-            </router-link>
-
-            <router-link
-              :to="{ name: 'involved' }"
-              @mouseenter="isHovered2 = true"
-              @mouseleave="isHovered2 = false"
-              class="border-b-2 border-transparent focus:text-green-500 focus:border-red-700 hover:text-gray-800 transition-colors duration-300 transform dark:text-gray-800 hover:border-blue-500 mx-4"
-              exact
-              exact-active-class="active-link">
-              get involved
-              <router-link
-                :to="{ name: 'friends' }"
-                v-if="isHovered2"
-                @click="goToFriends()"
-                class="absolute top-full left-0 hover:bg-emerald-700 hover:text-white rounded-md p-1 w-36">
-                Friends of Elimisha
-              </router-link>
             </router-link>
 
             <!--<router-link
@@ -120,7 +156,7 @@
               exact
               exact-active-class="active-link">
               FAQs
-            </router-link> -->
+            </router-link> --
 
             <router-link
               :to="{ name: 'contact' }"
@@ -137,6 +173,13 @@
               exact-active-class="active-link">
               Student Portal
             </a>
+            <!----<router-link
+              :to="{ name: 'faq' }"
+              class="border-b-2 border-transparent focus:text-green-500 focus:border-red-700 hover:text-gray-800 transition-colors duration-300 transform text-gray-800 hover:border-blue-500 mx-4"
+              exact
+              exact-active-class="active-link">
+              FAQs
+            </router-link>--
           </div>
         </div>
 
@@ -146,7 +189,7 @@
         </div>
       </div>
 
-      <!--Phone view-->
+      <!--Phone view--
       <div
         v-if="openMenu"
         v-click-away="onClickAway"
@@ -171,15 +214,6 @@
           </router-link>
 
           <router-link
-            :to="{ name: 'team' }"
-            class="mt-2 hover:bg-emerald-700 mx-20 rounded hover:text-white focus:text-white focus:bg-emerald-600 mb-1"
-            @click="openMenu = !openMenu"
-            exact
-            exact-active-class="active-link">
-            Our Team
-          </router-link>
-
-          <router-link
             :to="{ name: 'work' }"
             class="mt-2 hover:bg-emerald-700 mx-20 rounded hover:text-white focus:text-white focus:bg-emerald-600 mb-1"
             @click="openMenu = !openMenu"
@@ -198,7 +232,7 @@
           </router-link>
 
           <router-link
-            :to="{ name: 'programmes' }"
+            :to="{ name: 'programmes' /**name: 'programmes' */ }"
             class="mt-2 hover:bg-emerald-700 mx-20 rounded hover:text-white focus:text-white focus:bg-emerald-600 mb-1"
             @click="openMenu = !openMenu"
             exact
@@ -276,7 +310,7 @@
             exact
             exact-active-class="active-link">
             FAQs
-          </router-link> -->
+          </router-link> --
 
           <router-link
             :to="{ name: 'contact' }"
@@ -296,6 +330,20 @@
             exact-active-class="active-link">
             Student Portal
           </a>
+          <router-link
+              :to="{ name: 'team' }"
+              class="border-b-2 border-transparent focus:text-green-500 focus:border-red-700 hover:text-gray-800 transition-colors duration-300 transform text-gray-800 hover:border-blue-500 mx-4"
+              exact
+              exact-active-class="active-link">
+              Our Team
+          </router-link>
+            <router-link
+              :to="{ name: 'faq' }"
+              class="border-b-2 border-transparent focus:text-green-500 focus:border-red-700 hover:text-gray-800 transition-colors duration-300 transform text-gray-800 hover:border-blue-500 mx-4"
+              exact
+              exact-active-class="active-link">
+              FAQs
+          </router-link>
         </div>
       </div>
 
@@ -346,4 +394,120 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped></style>-->
+
+
+<template>
+  <header class="bg-white shadow-md py-7 fixed top-0 left-0 w-full z-50">
+    <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <!-- Clickable Logo -->
+        <router-link to="/" class="flex items-center">
+          <img src="@/assets/LogoFile.png" alt="Logo" class="w-full" />
+        </router-link>
+
+        <!-- Desktop Nav -->
+        <nav class="hidden md:flex space-x-6 text-gray-600 dark:text-black items-center relative">
+          <router-link to="/" class="hover:text-emerald-600">Home</router-link>
+
+          <!-- Dropdown Parent -->
+          <!----<div class="relative" @mouseenter="showDropdown = true" @mouseleave="showDropdown = false">
+            <button class="hover:text-emerald-600 focus:outline-none">
+              Our Programmes
+            </button>
+            <div
+              v-show="showDropdown"
+              class="absolute z-50 bg-white shadow-md rounded-md py-2 w-56 mt-2 text-sm border border-gray-100"
+            >
+              <router-link to="/programmes/financial-aid" class="block px-4 py-2 hover:bg-emerald-50">Financial Aid</router-link>
+              <router-link to="/programmes/student-support" class="block px-4 py-2 hover:bg-emerald-50">Student Support</router-link>
+              <router-link to="/programmes/academic-guardianship" class="block px-4 py-2 hover:bg-emerald-50">Academic Guardianship</router-link>
+            </div>
+          </div>-->
+
+          <router-link to="/programmes" class="hover:text-emerald-600">Our Programmes</router-link>
+          <router-link to="/liaison" class="hover:text-emerald-600">Office of Liaison</router-link>
+          <router-link to="/friends" class="hover:text-emerald-600">Friends of Elimisha</router-link>
+          <router-link to="/team" class="hover:text-emerald-600">Our Team</router-link>
+          <router-link to="/gallery" class="hover:text-emerald-600">Gallery</router-link>
+          <router-link to="/contact" class="hover:text-emerald-600">Contact Us</router-link>
+          <a
+            href="https://elimishafoundation.org/"
+            target="_blank"
+            rel="noopener"
+            class="hover:text-emerald-600"
+          >
+            Student Portal
+          </a>
+        </nav>
+
+        <!-- Mobile Menu Button -->
+        <button @click="menuOpen = !menuOpen" class="md:hidden focus:outline-none text-gray-700">
+          <svg v-if="!menuOpen" class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+          <svg v-else class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Nav Dropdown -->
+    <div v-if="menuOpen" class="md:hidden bg-white px-4 pt-4 pb-6 space-y-3 shadow-md text-gray-700">
+      <router-link to="/" class="block hover:text-emerald-600">Home</router-link>
+
+      <!-- Mobile dropdown toggle -->
+      <div>
+        <button @click="mobileDropdownOpen = !mobileDropdownOpen" class="w-full text-left font-medium hover:text-emerald-600">
+          Our Programmes
+        </button>
+        <div v-show="mobileDropdownOpen" class="ml-4 mt-2 space-y-2 text-sm">
+          <router-link to="/programmes/financial-aid" class="block hover:text-emerald-600">Financial Aid</router-link>
+          <router-link to="/programmes/student-support" class="block hover:text-emerald-600">Student Support</router-link>
+          <router-link to="/programmes/academic-guardianship" class="block hover:text-emerald-600">Academic Guardianship</router-link>
+        </div>
+      </div>
+
+      <router-link to="/liaison" class="block hover:text-emerald-600">Office of Liaison</router-link>
+      <router-link to="/friends" class="block hover:text-emerald-600">Friends of Elimisha</router-link>
+      <router-link to="/team" class="block hover:text-emerald-600">Our Team</router-link>
+      <router-link to="/gallery" class="block hover:text-emerald-600">Gallery</router-link>
+      <router-link to="/contact" class="block hover:text-emerald-600">Contact Us</router-link>
+      <a
+        href="https://elimishafoundation.org/"
+        target="_blank"
+        rel="noopener"
+        class="block hover:text-emerald-600"
+      >
+        Student Portal
+      </a>
+    </div>
+  </header>
+</template>
+
+
+<script>
+export default {
+  data() {
+    return {
+      menuOpen: false,
+      showDropdown: false,
+      mobileDropdownOpen: false
+    };
+  },
+  watch: {
+    $route() {
+      this.menuOpen = false;
+      this.mobileDropdownOpen = false;
+      this.showDropdown = false;
+    }
+  }
+};
+</script>
+
+<style lang="scss" scoped>
+
+</style>

@@ -149,6 +149,9 @@
               </span>
             </div>
 
+          </div>
+        </div>
+
             <div class="mt-7 text-justify">
               <span class="text-black">These partnerships signify our collective dedication to sustainable
                 development, and we are grateful for the support of organizations
@@ -156,9 +159,6 @@
                 the lives of deserving students.
               </span>
             </div>
-
-          </div>
-        </div>
 
 
 

@@ -18,7 +18,7 @@
         controls
         loop>
       </video>-->
-      <!----<iframe width="1280" height="720" src="https://www.youtube.com/embed/FAsGwlDGHZk"
+  <!----<iframe width="1280" height="720" src="https://www.youtube.com/embed/FAsGwlDGHZk"
         title="The Story of Elimisha Watoto Foundation" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
@@ -36,7 +36,7 @@
         <!--our story-->
         <section class="mt-6 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-x-6 gap-y-8">
           <article
-            class="relative w-full h-80 group rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 ease-in-out">
+            class="relative w-full h-auto group rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 ease-in-out">
             <img class="absolute inset-0 object-cover w-full h-full" src="../assets/kid-about.png"
               alt="image description" />
             <div class="absolute inset-0 bg-black bg-opacity-70 transition duration-300 ease-in-out"></div>
@@ -44,12 +44,19 @@
               <h3 class="text-center">
                 <a class="text-white text-xl font-bold text-center" href="#">
                   <span class="absolute inset-0"></span>
-                  OUR STORY
+                  Who we are
                 </a>
                 <p class="text-white text-sm p-4">
-                  Elimisha Watoto Foundation was born out of the need, within our communities, to foster a hopeful future for academically 
-                  talented yet underprivileged students. Over the years, the programme has expanded, uplifting these students through financial
-                  and academic support as well as mentorship. <em>'Every child deserves an opportunity to thrive and reach their full potential.'</em>
+                  Elimisha Watoto Foundation is a registered nongovernmental
+                  organization based in Kenya,
+                  dedicated to transforming the lives of vulnerable
+                  children. We exist to bridge the gap in access to
+                  education by providing holistic support including
+                  quality learning opportunities, psychosocial care, and
+                  mentorship. Our commitment is rooted in the belief
+                  that every child, regardless of their background or
+                  circumstances, has the right to learn, grow, and reach
+                  their full potential.
                 </p>
               </h3>
             </div>
@@ -57,28 +64,45 @@
 
           <!--our focus-->
           <article
-            class="relative w-full h-80 group rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 ease-in-out">
+            class="relative w-full h-auto pt-10 pb-10 group rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 ease-in-out">
             <img class="absolute inset-0 object-cover w-full h-full" src="../assets/kid-about.png"
               alt="image description" />
             <div class="absolute inset-0 bg-black bg-opacity-70 transition duration-300 ease-in-out"></div>
-            <div class="relative w-full h-full px-4 sm:px-6 lg:px-4 flex justify-center items-center">
+            <div class="relative w-full h-full px-4 sm:px-6 lg:px-4 flex  items-center">
               <h3 class="text-center">
                 <a class="text-white text-xl font-bold text-center" href="#">
                   <span class="absolute inset-0"></span>
-                  OUR FOCUS
+                  What we do
                 </a>
                 <p class="text-white text-sm p-4">
-                  Our focus on bringing up a generation endowed with the sound
-                  education to be able to take up responsibilities for
-                  themselves and others in their communities.
+                  At Elimisha Watoto Foundation, we create pathways
+                  for vulnerable children to access education and
+                  holistic development. Our programs are designed to
+                  remove barriers that hinder learning by:
                 </p>
+                <ul class="mx-8 text-sm list-disc list-outside text-white text-left">
+                  <li>Providing educational support, including
+                    school fees, uniforms, and learning
+                    materials</li>
+                  <li>Offering psychosocial services such as
+                    counseling, trauma care, and emotional
+                    support</li>
+                  <li>Facilitating mentorship and life skills
+                    training to nurture confidence, resilience,
+                    and purpose</li>
+                  <li>Engaging families and communities to build
+                    supportive environments around each child</li>
+                </ul>
+                <p class="text-white text-sm p-4">Through these interventions, we empower children
+                  not only to stay in school but to succeed, thrive, and
+                  envision a brighter future.</p>
               </h3>
             </div>
           </article>
 
           <!--our objective-->
           <article
-            class="relative w-full h-80 group rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 ease-in-out">
+            class="relative w-full h-auto group rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 ease-in-out">
             <img class="absolute inset-0 object-cover w-full h-full" src="../assets/kid-about.png"
               alt="image description" />
             <div class="absolute inset-0 bg-black bg-opacity-70 transition duration-300 ease-in-out"></div>
@@ -86,26 +110,98 @@
               <h3 class="text-center">
                 <a class="text-white text-xl font-bold text-center" href="#">
                   <span class="absolute inset-0"></span>
-                  OUR OBJECTIVE
+                  Why it matters
                 </a>
-                <ul class="text-white text-left text-sm p-4 list-disc">
-                  <li>To provide access to quality education for bright and/or talented leamers from economically disadvantaged backgrounds </li>
+                <p class="text-white text-sm p-4">In Kenya, many vulnerable children face significant
+                  barriers to education driven by poverty, fractured
+                  family structures, and limited community support.
+                  Without timely intervention, these children are at risk
+                  of dropping out of school, falling into crime, or
+                  perpetuating the cycle of poverty.<br>At Elimisha Watoto Foundation, we believe that
+                  early support through education, mentorship, and
+                  psychosocial care can change the course of a child's
+                  life. By unlocking their potential, we’re not just
+                  helping individual children we’re transforming
+                  families, strengthening communities, and shaping the
+                  future of our nation.<br><span class="font-bold">Educate a child. Transform a nation.</span></p>
+                <!----<ul class="text-white text-left text-sm p-4 list-disc">
+                  <li>To provide access to quality education for bright and/or talented leamers from economically
+                    disadvantaged backgrounds </li>
                   <li>
-                    To equip learners with critical life skills for resilience 
+                    To equip learners with critical life skills for resilience
                   </li>
                   <li>
-                    To establish and maintain strategic partnerships to leverage the Foundation's resources for sustainability 
+                    To establish and maintain strategic partnerships to leverage the Foundation's resources for
+                    sustainability
                   </li>
                   <li>
                     To strengthen the Foundation's institutional capacity for effective delivery of its mandate
                   </li>
-                </ul>
+                </ul>--->
               </h3>
             </div>
           </article>
         </section>
       </article>
     </section>
+    <!----<section class="px-4 py-10 md:px-16 lg:px-24 bg-white text-gray-800">
+    <div class="max-w-6xl mx-auto space-y-16">
+      <!-- Page Title --
+      <div class="text-center">
+        <h1 class="text-3xl md:text-4xl font-bold text-primary mb-2">About Us</h1>
+        <p class="text-lg text-gray-600 italic">Educate a child. Transform a nation.</p>
+      </div>
+
+      <!-- Who We Are --
+      <div class="space-y-4">
+        <h2 class="text-2xl font-semibold text-primary">Who we are?</h2>
+        <p class="text-black leading-relaxed">
+          Elimisha Watoto Foundation is a registered non-governmental organization based in Kenya, dedicated to transforming the lives of vulnerable children.
+          We exist to bridge the gap in access to education by providing holistic support including quality learning opportunities, psychosocial care, and mentorship.
+          Our commitment is rooted in the belief that every child, regardless of their background or circumstances, has the right to learn, grow, and reach their full potential.
+        </p>
+      </div>
+
+      <!-- What We Do --
+      <div class="space-y-4">
+        <h2 class="text-2xl font-semibold text-primary">What we do?</h2>
+        <p class="text-black leading-relaxed">
+          At Elimisha Watoto Foundation, we create pathways for vulnerable children to access education and holistic development.
+          Our programs are designed to remove barriers that hinder learning by:
+        </p>
+        <ul class="list-disc list-inside text-black space-y-2">
+          <li>Providing educational support, including school fees, uniforms, and learning materials</li>
+          <li>Offering psychosocial services such as counseling, trauma care, and emotional support</li>
+          <li>Facilitating mentorship and life skills training to nurture confidence, resilience, and purpose</li>
+          <li>Engaging families and communities to build supportive environments around each child</li>
+        </ul>
+        <p class="text-black leading-relaxed">
+          Through these interventions, we empower children not only to stay in school but to succeed, thrive, and envision a brighter future.
+        </p>
+      </div>
+
+      <!-- Why It Matters --
+      <div class="space-y-4">
+        <h2 class="text-2xl font-semibold text-primary">Why it matters?</h2>
+        <p class="text-black leading-relaxed">
+          In Kenya, many vulnerable children face significant barriers to education driven by poverty, fractured family structures, and limited community support.
+          Without timely intervention, these children are at risk of dropping out of school, falling into crime, or perpetuating the cycle of poverty.
+        </p>
+        <p class="text-black leading-relaxed">
+          At Elimisha Watoto Foundation, we believe that
+          early support through education, mentorship, and
+          psychosocial care can change the course of a child's
+          life. By unlocking their potential, we’re not just
+          helping individual children we’re transforming
+          families, strengthening communities, and shaping the
+          future of our nation.
+        </p>
+        <p class="text-black font-bold leading-relaxed">
+          Educate a child. Transform a nation.
+        </p>
+      </div>
+    </div>
+  </section>
   </div>
   <div>
     <!-- Get in Touch component -->

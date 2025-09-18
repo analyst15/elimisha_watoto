@@ -1,5 +1,5 @@
-<template>
-  <!----<div class="overflow-hidden">
+  <!----<template>
+<div class="overflow-hidden">
     <!-- component --
     <footer
       class="bg-gradient-to-r from-teal-500 via-teal-600 to-teal-700 overflow-hidden"
@@ -124,7 +124,7 @@
       </div>
     </footer>
   </div>-->
-    <footer class="bg-gradient-to-r from-teal-500 via-teal-600 to-teal-700 overflow-hidden">
+    <!----<footer class="bg-gradient-to-r from-teal-500 via-teal-600 to-teal-700 overflow-hidden">
     <div class="mx-auto max-w-screen-xl space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8">
       <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
         <div>
@@ -264,7 +264,7 @@ export default {
   setup() {
     return {};
   },
-  methods: {
+  /**methods: {
     goToHome() {
       router.push("/");
     },
@@ -292,7 +292,80 @@ export default {
 
 <style scoped>
 
+</style>-->
 
 
+
+<template>
+  <footer class="bg-gradient-to-r from-teal-500 via-teal-600 to-teal-700 text-white">
+    <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <!-- Adjusted to 1 on mobile, 2 on medium, 3 on large screens -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+
+        <!-- Logo + Socials -->
+        <div>
+          <img src="@/assets/ElimishaWatotoLogoWhite.png" alt="Logo" class="w-60 mb-6" />
+          <p class="text-base">Educate a Child, Transform a Nation.</p>
+          <div class="flex gap-4 mt-6">
+            <!-- Facebook -->
+            <a href="https://www.facebook.com/profile.php?id=100095380491032" target="_blank" class="hover:opacity-75">
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                <path fill-rule="evenodd"
+                  d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                  clip-rule="evenodd" />
+              </svg>
+            </a>
+
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/friendsofelimisha/" target="_blank" class="hover:opacity-75">
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                <path fill-rule="evenodd"
+                  d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.9 4.9 0 011.772 1.153 4.9 4.9 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.9 4.9 0 01-1.153 1.772 4.9 4.9 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.9 4.9 0 01-1.772-1.153 4.9 4.9 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.9 4.9 0 011.153-1.772A4.9 4.9 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
+                  clip-rule="evenodd" />
+              </svg>
+            </a>
+
+            <a href="https://www.linkedin.com/company/elimisha-watoto-foundation/" target="_blank" class="hover:opacity-75">
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0 8h5v16H0V8zm7.5 0h4.8v2.2h.1c.67-1.27 2.3-2.6 4.7-2.6 5 0 5.9 3.3 5.9 7.6V24h-5V16.1c0-1.9-.03-4.4-2.7-4.4-2.7 0-3.1 2.1-3.1 4.3V24h-5V8z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Contact Info -->
+        <div>
+          <h3 class="font-semibold text-lg mb-4">Contact Us</h3>
+          <ul class="space-y-2 text-base">
+            <li>Email: <a href="mailto:info@elimishawatoto.org" class="hover:underline">info@elimishawatoto.org</a></li>
+            <li>Phone: <a href="tel:+254753343152" class="hover:underline">+254 753 343 152</a></li>
+            <li>Location: 3rd Floor, Woodvale Place, Westlands, Nairobi</li>
+          </ul>
+        </div>
+
+        <!-- Map (larger & responsive) -->
+        <div>
+          <h3 class="font-semibold text-lg mb-4">Our Location</h3>
+          <div class="w-full aspect-video rounded-md overflow-hidden">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8473343436935!2d36.80341561118062!3d-1.2640852454018978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f178060c0d21b%3A0x586aa06fbf3d0b37!2sElimisha%20Watoto%20Foundation!5e0!3m2!1sen!2ske!4v1758011741680!5m2!1sen!2ske"
+              class="w-full h-full border-0" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="mt-10 text-center text-base text-gray-100">
+        &copy; 2025 Elimisha Watoto Foundation. All rights reserved.
+      </div>
+    </div>
+  </footer>
+</template>
+
+
+<style scoped>
+/* Optional: Tailwind handles most layout, but add tweaks here if needed */
 </style>
-
