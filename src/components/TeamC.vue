@@ -5,55 +5,46 @@
 
         <div class="grid md:grid-cols-2 grid-cols-1 lg:grid-cols-3 text-center md:mx-40 my-20">
             <div class="flex flex-col mt-8 items-center">
-                <img src="../assets/staff/1.png" alt="" class="rounded-full w-64 h-64">
+
                 <span class="font-bold text-xl pt-2 ">Purity Mutiga</span>
                 <span class="text-xl pt-2">Head of Administration</span>
             </div>
             <div class="flex flex-col mt-8 items-center">
-                <img src="../assets/staff/8.png" alt="" class="rounded-full w-64 h-64">
+
                 <span class="font-bold text-xl pt-2 ">Marsha Sitati</span>
                 <span class="text-xl pt-2">Head Liaison Officer</span>
             </div>
             <div class="flex flex-col mt-8 items-center">
-                <img src="../assets/staff/5.png" alt="" class="rounded-full w-64 h-64">
+
                 <span class="font-bold text-xl pt-2 ">Elizabeth Mwania</span>
                 <span class="text-xl pt-2">Administrative Officer</span>
             </div>
             <div class="flex flex-col mt-8 items-center">
-                <img src="../assets/staff/6.png" alt="" class="rounded-full w-64 h-64">
+
                 <span class="font-bold text-xl pt-2 ">Susan Muriuki</span>
                 <span class="text-xl pt-2">Finance Officer</span>
             </div>
             <div class="flex flex-col mt-8 items-center">
-                <img src="../assets/staff/9.png" alt="" class="rounded-full w-64 h-64">
+
                 <span class="font-bold text-xl pt-2 ">Princeton Nyanja</span>
                 <span class="text-xl pt-2">Liaison Officer</span>
             </div>
             <div class="flex flex-col mt-8 items-center">
-                <img src="../assets/staff/7.png" alt="" class="rounded-full w-64 h-64">
-                <span class="font-bold text-xl pt-2 ">Lucy Mueni</span>
-                <span class="text-xl pt-2">Liaison Officer</span>
-            </div>
-            <div class="flex flex-col mt-8 items-center">
-                <img src="../assets/staff/3.png" alt="" class="rounded-full w-64 h-64">
+
                 <span class="font-bold text-xl pt-2 ">Ashley Otieno</span>
                 <span class="text-xl pt-2">Liaison Officer</span>
             </div>
             <div class="flex flex-col mt-8 items-center">
-                <img src="../assets/staff/2.png" alt="" class="rounded-full w-64 h-64">
+
                 <span class="font-bold text-xl pt-2 ">Warren Bahati</span>
                 <span class="text-xl pt-2">Liaison Officer</span>
             </div>
             <div class="flex flex-col mt-8 items-center">
-                <img src="../assets/staff/4.png" alt="" class="rounded-full w-64 h-64">
+
                 <span class="font-bold text-xl pt-2 ">Wendy Achieng</span>
                 <span class="text-xl pt-2">Liaison Officer</span>
             </div>
             <div class="flex flex-col mt-8 items-center">
-                <img src="../assets/staff/11.jpg" alt="" class="rounded-full w-64 h-64">
-                <span class="font-bold text-xl pt-2 ">Wanjiru Wakaba</span>
-                <span class="text-xl pt-2">Communication & Media Lead</span>
-            </div>
 
         </div>
     </div>

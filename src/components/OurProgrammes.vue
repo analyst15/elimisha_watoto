@@ -76,7 +76,7 @@
 
 
             
-            
+            <!----
             
             <h2 class="text-4xl font-semibold my-8 font-mono uppercase">LEAP</h2>
             <p class="font-sans text-balance text-xl md:w-3/4 w-5/6 mx-auto">Life Experience And Preparation  is a programme designed for high school students in form 4(K.C.S.E), form 5 - 6(A-levels) and students joining local and foreign universities, with an aim of enhancing their social skills</p>
@@ -107,7 +107,108 @@
                     <li v-for="course in courses" :key="cousre" class="mt-1 text-xl ">{{ course }}</li>
                 </ul>
                 
-            </div>
+            </div>-->
+            <div class="min-h-screen bg-white text-gray-900 flex items-center justify-center p-6">
+    <div class="max-w-6xl w-full text-left md:text-center">
+      <!-- Logo -->
+      <div class="flex justify-center mb-6">
+        <img 
+          src="@/assets/leap-logo.png" 
+          alt="LEAP Logo" 
+          class="w-40 md:w-56"
+        />
+      </div>
+
+      <!-- Heading -->
+      <h1 class="text-2xl text-left md:text-3xl font-semibold mb-4">
+        Life Experience and Preparation(LEAP)
+      </h1>
+
+      <!-- Subheading -->
+      <p class="text-lg text-left mb-6">
+        We believe in equipping learners with the tools to thrive beyond academics.
+      </p>
+
+      <p class="text-lg text-left mt-6 mb-4">
+        Our <span class="font-semibold">LEAP Programme</span> provides:
+      </p>
+
+      <p class="text-gray-900 leading-relaxed text-left mb-4">
+        A tailor-made curriculum for Form 4 (KCSE), Form 5–6 (A-Levels), and students transitioning into local or international universities.
+      </p>
+      <p class="text-gray-900 leading-relaxed text-left">
+        Training in three pillars:
+      </p>
+        <ul class="list-disc list-inside ml-5 text-left">
+        <li class="mb-2">Becoming a Better Person – focusing on personal presentation, dining etiquette, budgeting, time management, confidence, and positive habits.</li>
+        <li class="mb-2">Becoming a People’s Person – building communication, empathy, conflict resolution, leadership, and teamwork skills.</li>
+        <li class="mb-2">Building a Meaningful Career – enhancing digital literacy, online etiquette, personal branding, CV preparation, study skills, and pre-departure readiness.</li>
+        </ul>
+
+      <p class="text-gray-900 leading-relaxed text-left mt-4 mb-4">
+        We prepare students to face life with confidence, resilience, and purpose.
+      </p>
+      
+      <!-- <p class="text-lg text-left font-semibold mt-6 mb-6">
+        Why LEAP Matters
+      </p>
+
+      <p class="text-gray-900 leading-relaxed text-left">
+        Studies show that less than 10% of Kenyan adolescents demonstrate strong life skills like problem-solving, collaboration, and self-awareness skills essential for resilience and success in today’s world.
+        LEAP fills this gap by providing structured, practical training that prepares students for real-life readiness, emotional strength, and confident engagement with the world.
+      </p>
+
+      <p class="text-lg text-left font-bold mt-6 mb-6">
+        Our Pillars<br> <span class=" font-semibold"> 1. Becoming a Better Person</span>
+      </p>
+      <ul class="list-disc list-inside text-left">
+        <li class="mb-2">Personal presentation & grooming</li>
+        <li class="mb-2">Dining etiquette & social manners</li>
+        <li class="mb-2">Budgeting & time management</li>
+        <li class="mb-2">Building confidence and positive habits</li>
+        </ul>
+
+      <p class="text-lg text-left font-semibold mt-6 mb-6">
+        2. Becoming a People’s Person
+      </p>
+      <ul class="list-disc list-inside text-left">
+        <li class="mb-2">Effective communication</li>
+        <li class="mb-2">Empathy & emotional awareness</li>
+        <li class="mb-2">Conflict resolution</li>
+        <li class="mb-2">Leadership and teamwork</li>
+      </ul>
+
+      <p class="text-lg text-left font-semibold mt-6 mb-6">
+        3. Building a Meaningful Career
+      </p>
+      <ul class="list-disc list-inside text-left">
+        <li class="mb-2">Online etiquette & digital literacy</li>
+        <li class="mb-2">Personal branding & networking</li>
+        <li class="mb-2">Study, writing & research skills</li>
+        <li class="mb-2">CV preparation & pre-departure readiness</li>
+      </ul>
+
+      <p class="text-lg text-left font-semibold mt-6 mb-6">
+       How LEAP Works
+      </p>
+      <ul class="list-disc list-inside text-left">
+        <li class="mb-2">Practical Learning: Role plays, video demos, templates, and peer workshops turn lessons into habits.</li>
+        <li class="mb-2">Mentorship & Reflection: Students learn from alumni and mentors, with space for self-reflection.</li>
+        <li class="mb-2">Real-World Simulations: Pre-departure briefings, cross-cultural sessions, and mock scenarios prepare learners for independence.</li>
+        <li class="mb-2">Recognition for Growth: Quarterly awards celebrate progress, building confidence and motivation.</li>
+      </ul>
+
+      <p class="text-lg text-left font-semibold mt-6 mb-6">
+       Impact Beyond the Classroom
+      </p>
+
+      <p class="text-gray-900 leading-relaxed text-left">
+      Countries that integrate life skills into education (like Kenya’s CBC initiative) report improved academic performance, reduced teenage pregnancies, better discipline, and stronger resilience (UNFPA Kenya).
+      At Elimisha, LEAP is more than preparation it’s transformation. We walk with every learner so they don’t just pass exams, they thrive in life.
+      </p> -->
+      
+    </div>
+  </div>
         </div>
     </div>
 </template>--->
