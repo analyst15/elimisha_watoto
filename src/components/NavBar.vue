@@ -407,7 +407,7 @@ export default {
         </router-link>
 
         <!-- Desktop Nav -->
-        <nav class="hidden md:flex space-x-6 text-gray-600 dark:text-black items-center relative">
+        <nav class="hidden md:flex space-x-4 text-gray-600 dark:text-black items-center relative">
           <router-link to="/" class="hover:text-emerald-600">Home</router-link>
 
           <!-- Dropdown Parent -->
@@ -429,6 +429,7 @@ export default {
           <router-link to="/liaison" class="hover:text-emerald-600">Office of Liaison</router-link>
           <router-link to="/friends" class="hover:text-emerald-600">Friends of Elimisha</router-link>
           <router-link to="/team" class="hover:text-emerald-600">Our Team</router-link>
+          <router-link to="/tertiary" class="hover:text-emerald-600">Tertiary</router-link>
           <router-link to="/gallery" class="hover:text-emerald-600">Gallery</router-link>
           <router-link to="/contact" class="hover:text-emerald-600">Contact Us</router-link>
           <a
@@ -474,6 +475,7 @@ export default {
       <router-link to="/liaison" class="block hover:text-emerald-600">Office of Liaison</router-link>
       <router-link to="/friends" class="block hover:text-emerald-600">Friends of Elimisha</router-link>
       <router-link to="/team" class="block hover:text-emerald-600">Our Team</router-link>
+      
       <router-link to="/gallery" class="block hover:text-emerald-600">Gallery</router-link>
       <router-link to="/contact" class="block hover:text-emerald-600">Contact Us</router-link>
       <a
